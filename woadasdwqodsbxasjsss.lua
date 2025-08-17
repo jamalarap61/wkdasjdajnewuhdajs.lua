@@ -1,4 +1,4 @@
---V3
+--V4
 
 -- ts file was generated at discord.gg/25ms
 
@@ -25,7 +25,7 @@ end
 a['2'] = Instance.new('Frame', a['1'])
 a['2'].ZIndex = 0
 a['2'].BorderSizePixel = 2
-a['2'].BackgroundColor3 = Color3.fromRGB(63, 81, 181)
+a['2'].BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a['2'].AnchorPoint = Vector2.new(0.5, 0.5)
 a['2'].Size = UDim2.new(0, 528, 0, 334)
 a['2'].Position = UDim2.new(0.5278, 0, 0.5, 0)
@@ -37,7 +37,7 @@ a['4'] = Instance.new('Frame', a['2'])
 a['4'].Visible = false
 a['4'].ZIndex = 4
 a['4'].BorderSizePixel = 0
-a['4'].BackgroundColor3 = Color3.fromRGB(26, 35, 126)
+a['4'].BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a['4'].AnchorPoint = Vector2.new(0.5, 0.5)
 a['4'].ClipsDescendants = true
 a['4'].Size = UDim2.new(0.7281, 0, 0.68367, 0)
@@ -80,7 +80,7 @@ a['9'].Name = 'DropShadow'
 a['9'].Position = UDim2.new(0.5, 0, 0.5, 0)
 a.a = Instance.new('Frame', a['8'])
 a.a.BorderSizePixel = 0
-a.a.BackgroundColor3 = Color3.fromRGB(40, 53, 147)
+a.a.BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a.a.AutomaticSize = Enum.AutomaticSize.Y
 a.a.Size = UDim2.new(1, 0, 1, 0)
 a.a.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -96,7 +96,7 @@ a.d.BorderSizePixel = 0
 a.d.TextWrapped = true
 a.d.TextTruncate = Enum.TextTruncate.AtEnd
 a.d.TextSize = 14
-a.d.TextColor3 = Color3.fromRGB(159, 168, 218)
+a.d.TextColor3 = Color3.fromRGB(57, 73, 171)
 a.d.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a.d.FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.Medium, Enum.FontStyle.Normal)
 a.d.ClipsDescendants = true
@@ -114,7 +114,7 @@ a.f = Instance.new('ImageButton', a.a)
 a.f.BorderSizePixel = 0
 a.f.BackgroundTransparency = 1
 a.f.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-a.f.ImageColor3 = Color3.fromRGB(159, 168, 218)
+a.f.ImageColor3 = Color3.fromRGB(57, 73, 171)
 a.f.AnchorPoint = Vector2.new(1, 0.5)
 a.f.Image = 'rbxassetid://86928976705683'
 a.f.Size = UDim2.new(0, 15, 0, 15)
@@ -124,7 +124,7 @@ a['10'] = Instance.new('ImageButton', a['7'])
 a['10'].BorderSizePixel = 0
 a['10'].BackgroundTransparency = 1
 a['10'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-a['10'].ImageColor3 = Color3.fromRGB(159, 168, 218)
+a['10'].ImageColor3 = Color3.fromRGB(57, 73, 171)
 a['10'].ZIndex = 0
 a['10'].AnchorPoint = Vector2.new(1, 0.5)
 a['10'].Image = 'rbxassetid://132453323679056'
@@ -142,7 +142,7 @@ a['11'].TextXAlignment = Enum.TextXAlignment.Left
 a['11'].TextScaled = true
 a['11'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a['11'].FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
-a['11'].TextColor3 = Color3.fromRGB(159, 168, 218)
+a['11'].TextColor3 = Color3.fromRGB(57, 73, 171)
 a['11'].BackgroundTransparency = 1
 a['11'].AnchorPoint = Vector2.new(0, 0.5)
 a['11'].Size = UDim2.new(0.5, 0, 0, 18)
@@ -154,7 +154,7 @@ a['12'] = Instance.new('Folder', a['4'])
 a['12'].Name = 'Dropdowns'
 a['13'] = Instance.new('Frame', a['2'])
 a['13'].BorderSizePixel = 0
-a['13'].BackgroundColor3 = Color3.fromRGB(63, 81, 181)
+a['13'].BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a['13'].ClipsDescendants = true
 a['13'].Size = UDim2.new(0, 165, 1, - 35)
 a['13'].Position = UDim2.new(0, 0, 0, 35)
@@ -168,7 +168,7 @@ a['14'].BorderSizePixel = 0
 a['14'].CanvasSize = UDim2.new(0, 0, 0, 0)
 a['14'].ElasticBehavior = Enum.ElasticBehavior.Never
 a['14'].TopImage = 'rbxasset://textures/ui/Scroll/scroll-middle.png'
-a['14'].BackgroundColor3 = Color3.fromRGB(63, 81, 181)
+a['14'].BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a['14'].Name = 'Lists'
 a['14'].Selectable = false
 a['14'].BottomImage = 'rbxasset://textures/ui/Scroll/scroll-middle.png'
@@ -190,7 +190,7 @@ a['16'].Name = 'TabButton'
 a['16'].BackgroundTransparency = 1
 a['17'] = Instance.new('Frame', a['16'])
 a['17'].BorderSizePixel = 0
-a['17'].BackgroundColor3 = Color3.fromRGB(159, 168, 218)
+a['17'].BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a['17'].AnchorPoint = Vector2.new(0, 0.5)
 a['17'].Size = UDim2.new(0, 5, 0, 25)
 a['17'].Position = UDim2.new(0, 8, 0, 18)
@@ -199,18 +199,14 @@ a['17'].Name = 'Bar'
 a['18'] = Instance.new('UIGradient', a['17'])
 a['18'].Enabled = false
 a['18'].Rotation = 90
-a['18'].Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(121, 134, 203)),
-    ColorSequenceKeypoint.new(0.978, Color3.fromRGB(63, 81, 181)),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(92, 107, 192))
-}
+a['18'].Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(57, 73, 171)), ColorSequenceKeypoint.new(1, Color3.fromRGB(57, 73, 171))}
 a['19'] = Instance.new('UICorner', a['17'])
 a['19'].CornerRadius = UDim.new(0, 100)
 a['1a'] = Instance.new('ImageButton', a['16'])
 a['1a'].BorderSizePixel = 0
 a['1a'].BackgroundTransparency = 1
 a['1a'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-a['1a'].ImageColor3 = Color3.fromRGB(159, 168, 218)
+a['1a'].ImageColor3 = Color3.fromRGB(57, 73, 171)
 a['1a'].AnchorPoint = Vector2.new(0, 0.5)
 a['1a'].Image = 'rbxassetid://113216930555884'
 a['1a'].Size = UDim2.new(0, 31, 0, 30)
@@ -225,7 +221,7 @@ a['1c'].TextXAlignment = Enum.TextXAlignment.Left
 a['1c'].TextScaled = true
 a['1c'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a['1c'].FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
-a['1c'].TextColor3 = Color3.fromRGB(159, 168, 218)
+a['1c'].TextColor3 = Color3.fromRGB(57, 73, 171)
 a['1c'].BackgroundTransparency = 1
 a['1c'].AnchorPoint = Vector2.new(0, 0.5)
 a['1c'].Size = UDim2.new(0, 88, 0, 16)
@@ -257,7 +253,7 @@ a['20'].BorderSizePixel = 0
 a['20'].ImageTransparency = 0.5
 a['20'].BackgroundTransparency = 1
 a['20'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-a['20'].ImageColor3 = Color3.fromRGB(159, 168, 218)
+a['20'].ImageColor3 = Color3.fromRGB(57, 73, 171)
 a['20'].AnchorPoint = Vector2.new(0, 0.5)
 a['20'].Image = 'rbxassetid://113216930555884'
 a['20'].Size = UDim2.new(0, 31, 0, 30)
@@ -273,7 +269,7 @@ a['22'].TextTransparency = 0.5
 a['22'].TextScaled = true
 a['22'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a['22'].FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.Medium, Enum.FontStyle.Normal)
-a['22'].TextColor3 = Color3.fromRGB(159, 168, 218)
+a['22'].TextColor3 = Color3.fromRGB(57, 73, 171)
 a['22'].BackgroundTransparency = 1
 a['22'].AnchorPoint = Vector2.new(0, 0.5)
 a['22'].Size = UDim2.new(0, 103, 0, 16)
@@ -282,7 +278,7 @@ a['22'].Text = 'NatHub'
 a['22'].Position = UDim2.new(0, 42, 0.5, 0)
 a['23'] = Instance.new('Frame', a['1f'])
 a['23'].BorderSizePixel = 0
-a['23'].BackgroundColor3 = Color3.fromRGB(159, 168, 218)
+a['23'].BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a['23'].AnchorPoint = Vector2.new(0, 0.5)
 a['23'].Size = UDim2.new(0, 5, 0, 0)
 a['23'].Position = UDim2.new(0, 8, 0, 18)
@@ -295,13 +291,13 @@ a['25'] = Instance.new('UICorner', a['13'])
 a['25'].CornerRadius = UDim.new(0, 6)
 a['26'] = Instance.new('Frame', a['13'])
 a['26'].BorderSizePixel = 0
-a['26'].BackgroundColor3 = Color3.fromRGB(63, 81, 181)
+a['26'].BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a['26'].Size = UDim2.new(1, 0, 0, 5)
 a['26'].BorderColor3 = Color3.fromRGB(0, 0, 0)
 a['26'].Name = 'AntiCornerTop'
 a['27'] = Instance.new('Frame', a['13'])
 a['27'].BorderSizePixel = 0
-a['27'].BackgroundColor3 = Color3.fromRGB(63, 81, 181)
+a['27'].BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a['27'].AnchorPoint = Vector2.new(0.5, 0)
 a['27'].Size = UDim2.new(0, 2, 1, 0)
 a['27'].Position = UDim2.new(1, 1, 0, 0)
@@ -318,7 +314,7 @@ a['28'].BorderColor3 = Color3.fromRGB(0, 0, 0)
 a['28'].Name = 'Border'
 a['29'] = Instance.new('Frame', a['2'])
 a['29'].BorderSizePixel = 0
-a['29'].BackgroundColor3 = Color3.fromRGB(63, 81, 181)
+a['29'].BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a['29'].ClipsDescendants = true
 a['29'].Size = UDim2.new(1, 0, 0, 35)
 a['29'].BorderColor3 = Color3.fromRGB(57, 73, 171)
@@ -344,7 +340,7 @@ a['2c'].TextSize = 14
 a['2c'].TextScaled = true
 a['2c'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a['2c'].FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
-a['2c'].TextColor3 = Color3.fromRGB(159, 168, 218)
+a['2c'].TextColor3 = Color3.fromRGB(57, 73, 171)
 a['2c'].BackgroundTransparency = 1
 a['2c'].AnchorPoint = Vector2.new(0.5, 0.5)
 a['2c'].Size = UDim2.new(1, 0, 0, 16)
@@ -355,7 +351,7 @@ a['2d'] = Instance.new('ImageButton', a['29'])
 a['2d'].BorderSizePixel = 0
 a['2d'].BackgroundTransparency = 1
 a['2d'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-a['2d'].ImageColor3 = Color3.fromRGB(159, 168, 218)
+a['2d'].ImageColor3 = Color3.fromRGB(57, 73, 171)
 a['2d'].AnchorPoint = Vector2.new(1, 0.5)
 a['2d'].Image = 'rbxassetid://132453323679056'
 a['2d'].Size = UDim2.new(0, 20, 0, 20)
@@ -366,7 +362,7 @@ a['2e'] = Instance.new('ImageButton', a['29'])
 a['2e'].BorderSizePixel = 0
 a['2e'].BackgroundTransparency = 1
 a['2e'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-a['2e'].ImageColor3 = Color3.fromRGB(159, 168, 218)
+a['2e'].ImageColor3 = Color3.fromRGB(57, 73, 171)
 a['2e'].AnchorPoint = Vector2.new(1, 0.5)
 a['2e'].Image = 'rbxassetid://108285848026510'
 a['2e'].Size = UDim2.new(0, 15, 0, 15)
@@ -377,7 +373,7 @@ a['2f'] = Instance.new('ImageButton', a['29'])
 a['2f'].BorderSizePixel = 0
 a['2f'].BackgroundTransparency = 1
 a['2f'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-a['2f'].ImageColor3 = Color3.fromRGB(159, 168, 218)
+a['2f'].ImageColor3 = Color3.fromRGB(57, 73, 171)
 a['2f'].AnchorPoint = Vector2.new(1, 0.5)
 a['2f'].Image = 'rbxassetid://128209591224511'
 a['2f'].Size = UDim2.new(0, 20, 0, 20)
@@ -398,10 +394,10 @@ a['31'].Name = 'Border'
 a['32'] = Instance.new('UIStroke', a['2'])
 a['32'].Transparency = 0.5
 a['32'].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-a['32'].Color = Color3.fromRGB(63, 81, 181)
+a['32'].Color = Color3.fromRGB(57, 73, 171)
 a['33'] = Instance.new('Frame', a['2'])
 a['33'].BorderSizePixel = 0
-a['33'].BackgroundColor3 = Color3.fromRGB(26, 35, 126)
+a['33'].BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a['33'].Size = UDim2.new(1, - 165, 1, - 35)
 a['33'].Position = UDim2.new(0, 165, 0, 35)
 a['33'].BorderColor3 = Color3.fromRGB(57, 73, 171)
@@ -411,13 +407,13 @@ a['34'].CornerRadius = UDim.new(0, 6)
 a['35'] = Instance.new('Frame', a['33'])
 a['35'].Visible = false
 a['35'].BorderSizePixel = 0
-a['35'].BackgroundColor3 = Color3.fromRGB(26, 35, 126)
+a['35'].BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a['35'].Size = UDim2.new(0, 5, 1, 0)
 a['35'].BorderColor3 = Color3.fromRGB(0, 0, 0)
 a['35'].Name = 'AntiCornerLeft'
 a['36'] = Instance.new('Frame', a['33'])
 a['36'].BorderSizePixel = 0
-a['36'].BackgroundColor3 = Color3.fromRGB(26, 35, 126)
+a['36'].BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a['36'].Size = UDim2.new(1, 0, 0, 5)
 a['36'].BorderColor3 = Color3.fromRGB(0, 0, 0)
 a['36'].Name = 'AntiCornerTop'
@@ -429,7 +425,7 @@ a['37'].TextSize = 14
 a['37'].TextScaled = true
 a['37'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a['37'].FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
-a['37'].TextColor3 = Color3.fromRGB(159, 168, 218)
+a['37'].TextColor3 = Color3.fromRGB(57, 73, 171)
 a['37'].BackgroundTransparency = 1
 a['37'].AnchorPoint = Vector2.new(0.5, 0.5)
 a['37'].Size = UDim2.new(1, 0, 0, 16)
@@ -503,7 +499,7 @@ a['43'].Selectable = false
 a['43'].BottomImage = 'rbxasset://textures/ui/Scroll/scroll-middle.png'
 a['43'].AutomaticCanvasSize = Enum.AutomaticSize.Y
 a['43'].Size = UDim2.new(1, 0, 1, 0)
-a['43'].ScrollBarImageColor3 = Color3.fromRGB(121, 134, 203)
+a['43'].ScrollBarImageColor3 = Color3.fromRGB(57, 73, 171)
 a['43'].BorderColor3 = Color3.fromRGB(0, 0, 0)
 a['43'].ScrollBarThickness = 5
 a['43'].BackgroundTransparency = 1
@@ -530,7 +526,7 @@ a['47'].BorderSizePixel = 0
 a['47'].ImageTransparency = 0.5
 a['47'].BackgroundTransparency = 1
 a['47'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-a['47'].ImageColor3 = Color3.fromRGB(159, 168, 218)
+a['47'].ImageColor3 = Color3.fromRGB(57, 73, 171)
 a['47'].AnchorPoint = Vector2.new(0, 0.5)
 a['47'].Image = 'rbxassetid://113216930555884'
 a['47'].Size = UDim2.new(0, 20, 0, 20)
@@ -546,7 +542,7 @@ a['49'].TextTransparency = 0.5
 a['49'].TextScaled = true
 a['49'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a['49'].FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.Medium, Enum.FontStyle.Normal)
-a['49'].TextColor3 = Color3.fromRGB(159, 168, 218)
+a['49'].TextColor3 = Color3.fromRGB(57, 73, 171)
 a['49'].BackgroundTransparency = 1
 a['49'].AnchorPoint = Vector2.new(0, 0.5)
 a['49'].Size = UDim2.new(0, 103, 0, 16)
@@ -555,7 +551,7 @@ a['49'].Text = ''
 a['49'].Position = UDim2.new(0, 42, 0.5, 0)
 a['4a'] = Instance.new('Frame', a['46'])
 a['4a'].BorderSizePixel = 0
-a['4a'].BackgroundColor3 = Color3.fromRGB(159, 168, 218)
+a['4a'].BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a['4a'].AnchorPoint = Vector2.new(0, 0.5)
 a['4a'].Size = UDim2.new(0, 5, 0, 0)
 a['4a'].Position = UDim2.new(0, 8, 0, 18)
@@ -568,7 +564,7 @@ a['4c'] = Instance.new('ImageButton', a['41'])
 a['4c'].BorderSizePixel = 0
 a['4c'].AutoButtonColor = false
 a['4c'].Visible = false
-a['4c'].BackgroundColor3 = Color3.fromRGB(40, 53, 147)
+a['4c'].BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a['4c'].Selectable = false
 a['4c'].AutomaticSize = Enum.AutomaticSize.Y
 a['4c'].Size = UDim2.new(1, 0, 0, 35)
@@ -600,7 +596,7 @@ a['51'].TextSize = 16
 a['51'].TextXAlignment = Enum.TextXAlignment.Left
 a['51'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a['51'].FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
-a['51'].TextColor3 = Color3.fromRGB(159, 168, 218)
+a['51'].TextColor3 = Color3.fromRGB(57, 73, 171)
 a['51'].BackgroundTransparency = 1
 a['51'].Size = UDim2.new(1, 0, 0, 15)
 a['51'].BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -611,7 +607,7 @@ a['52'].BorderSizePixel = 0
 a['52'].AutoButtonColor = false
 a['52'].BackgroundTransparency = 1
 a['52'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-a['52'].ImageColor3 = Color3.fromRGB(159, 168, 218)
+a['52'].ImageColor3 = Color3.fromRGB(57, 73, 171)
 a['52'].AnchorPoint = Vector2.new(1, 0.5)
 a['52'].Image = 'rbxassetid://91877599529856'
 a['52'].Size = UDim2.new(0, 23, 0, 23)
@@ -626,7 +622,7 @@ a['53'].TextSize = 16
 a['53'].TextXAlignment = Enum.TextXAlignment.Left
 a['53'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a['53'].FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.Medium, Enum.FontStyle.Normal)
-a['53'].TextColor3 = Color3.fromRGB(159, 168, 218)
+a['53'].TextColor3 = Color3.fromRGB(57, 73, 171)
 a['53'].BackgroundTransparency = 1
 a['53'].Size = UDim2.new(1, 0, 0, 15)
 a['53'].Visible = false
@@ -636,34 +632,13 @@ a['53'].LayoutOrder = 1
 a['53'].AutomaticSize = Enum.AutomaticSize.Y
 a['53'].Name = 'Description'
 a['54'] = Instance.new('UIGradient', a['4e'])
-a['54'].Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(57, 73, 171)),
-    ColorSequenceKeypoint.new(0.16, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(0.32, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(0.54, Color3.fromRGB(57, 73, 171)),
-    ColorSequenceKeypoint.new(0.782, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(92, 107, 192))
-}
+a['54'].Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(57, 73, 171)), ColorSequenceKeypoint.new(1, Color3.fromRGB(57, 73, 171))}
 a['55'] = Instance.new('UIGradient', a['4e'])
 a['55'].Enabled = false
-a['55'].Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(0.16, Color3.fromRGB(121, 134, 203)),
-    ColorSequenceKeypoint.new(0.32, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(0.54, Color3.fromRGB(57, 73, 171)),
-    ColorSequenceKeypoint.new(0.782, Color3.fromRGB(121, 134, 203)),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(92, 107, 192))
-}
+a['55'].Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(57, 73, 171)), ColorSequenceKeypoint.new(1, Color3.fromRGB(57, 73, 171))}
 a['56'] = Instance.new('UIGradient', a['4e'])
 a['56'].Enabled = false
-a['56'].Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(0.16, Color3.fromRGB(57, 73, 171)),
-    ColorSequenceKeypoint.new(0.32, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(0.54, Color3.fromRGB(121, 134, 203)),
-    ColorSequenceKeypoint.new(0.782, Color3.fromRGB(57, 73, 171)),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(92, 107, 192))
-}
+a['56'].Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(57, 73, 171)), ColorSequenceKeypoint.new(1, Color3.fromRGB(57, 73, 171))}
 a['57'] = Instance.new('UICorner', a['4e'])
 a['57'].CornerRadius = UDim.new(0, 6)
 a['58'] = Instance.new('UIStroke', a['4c'])
@@ -673,7 +648,7 @@ a['58'].Color = Color3.fromRGB(57, 73, 171)
 a['59'] = Instance.new('Frame', a['41'])
 a['59'].Visible = false
 a['59'].BorderSizePixel = 0
-a['59'].BackgroundColor3 = Color3.fromRGB(40, 53, 147)
+a['59'].BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a['59'].AutomaticSize = Enum.AutomaticSize.Y
 a['59'].Size = UDim2.new(1, 0, 0, 35)
 a['59'].Position = UDim2.new(- 3.75E-2, 0, 0.38434, 0)
@@ -693,7 +668,7 @@ a['5c'].TextSize = 16
 a['5c'].TextXAlignment = Enum.TextXAlignment.Left
 a['5c'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a['5c'].FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-a['5c'].TextColor3 = Color3.fromRGB(159, 168, 218)
+a['5c'].TextColor3 = Color3.fromRGB(57, 73, 171)
 a['5c'].BackgroundTransparency = 1
 a['5c'].Size = UDim2.new(1, 0, 0, 15)
 a['5c'].BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -716,7 +691,7 @@ a['5f'].TextSize = 16
 a['5f'].TextXAlignment = Enum.TextXAlignment.Left
 a['5f'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a['5f'].FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.Medium, Enum.FontStyle.Normal)
-a['5f'].TextColor3 = Color3.fromRGB(159, 168, 218)
+a['5f'].TextColor3 = Color3.fromRGB(57, 73, 171)
 a['5f'].BackgroundTransparency = 1
 a['5f'].Size = UDim2.new(1, 0, 0, 15)
 a['5f'].Visible = false
@@ -729,7 +704,7 @@ a['60'] = Instance.new('ImageButton', a['41'])
 a['60'].BorderSizePixel = 0
 a['60'].AutoButtonColor = false
 a['60'].Visible = false
-a['60'].BackgroundColor3 = Color3.fromRGB(40, 53, 147)
+a['60'].BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a['60'].Selectable = false
 a['60'].AutomaticSize = Enum.AutomaticSize.Y
 a['60'].Size = UDim2.new(1, 0, 0, 35)
@@ -758,7 +733,7 @@ a['65'].TextSize = 16
 a['65'].TextXAlignment = Enum.TextXAlignment.Left
 a['65'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a['65'].FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.Medium, Enum.FontStyle.Normal)
-a['65'].TextColor3 = Color3.fromRGB(159, 168, 218)
+a['65'].TextColor3 = Color3.fromRGB(57, 73, 171)
 a['65'].BackgroundTransparency = 1
 a['65'].Size = UDim2.new(1, 0, 0, 15)
 a['65'].Visible = false
@@ -774,7 +749,7 @@ a['66'].TextSize = 16
 a['66'].TextXAlignment = Enum.TextXAlignment.Left
 a['66'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a['66'].FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
-a['66'].TextColor3 = Color3.fromRGB(159, 168, 218)
+a['66'].TextColor3 = Color3.fromRGB(57, 73, 171)
 a['66'].BackgroundTransparency = 1
 a['66'].Size = UDim2.new(1, 0, 0, 15)
 a['66'].BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -784,7 +759,7 @@ a['67'] = Instance.new('ImageButton', a['66'])
 a['67'].BorderSizePixel = 0
 a['67'].AutoButtonColor = false
 a['67'].BackgroundColor3 = Color3.fromRGB(57, 73, 171)
-a['67'].ImageColor3 = Color3.fromRGB(159, 168, 218)
+a['67'].ImageColor3 = Color3.fromRGB(57, 73, 171)
 a['67'].AnchorPoint = Vector2.new(1, 0.5)
 a['67'].Size = UDim2.new(0, 45, 0, 25)
 a['67'].BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -798,7 +773,7 @@ a['69'].Interactable = false
 a['69'].BorderSizePixel = 0
 a['69'].AutoButtonColor = false
 a['69'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-a['69'].ImageColor3 = Color3.fromRGB(159, 168, 218)
+a['69'].ImageColor3 = Color3.fromRGB(57, 73, 171)
 a['69'].AnchorPoint = Vector2.new(0, 0.5)
 a['69'].Size = UDim2.new(0, 20, 0, 20)
 a['69'].BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -824,7 +799,7 @@ a['6c'].PaddingBottom = UDim.new(0, 2)
 a['6d'] = Instance.new('Frame', a['41'])
 a['6d'].Visible = false
 a['6d'].BorderSizePixel = 0
-a['6d'].BackgroundColor3 = Color3.fromRGB(63, 81, 181)
+a['6d'].BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a['6d'].AnchorPoint = Vector2.new(0.5, 0.5)
 a['6d'].AutomaticSize = Enum.AutomaticSize.Y
 a['6d'].Size = UDim2.new(1, 0, 0, 65)
@@ -835,7 +810,7 @@ a['6d'].BackgroundTransparency = 1
 a['6e'] = Instance.new('CanvasGroup', a['6d'])
 a['6e'].ZIndex = 2
 a['6e'].BorderSizePixel = 0
-a['6e'].BackgroundColor3 = Color3.fromRGB(63, 81, 181)
+a['6e'].BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a['6e'].AutomaticSize = Enum.AutomaticSize.Y
 a['6e'].Size = UDim2.new(0, 265, 0, 70)
 a['6e'].BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -862,7 +837,7 @@ a['72'].TextSize = 12
 a['72'].TextXAlignment = Enum.TextXAlignment.Left
 a['72'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a['72'].FontFace = Font.new('rbxasset://fonts/families/GothamSSm.json', Enum.FontWeight.Regular, Enum.FontStyle.Normal)
-a['72'].TextColor3 = Color3.fromRGB(159, 168, 218)
+a['72'].TextColor3 = Color3.fromRGB(57, 73, 171)
 a['72'].BackgroundTransparency = 1
 a['72'].AnchorPoint = Vector2.new(0, 0.5)
 a['72'].Size = UDim2.new(0, 218, 0, 10)
@@ -876,10 +851,7 @@ a['72'].Position = UDim2.new(0, 0, 0, 19)
 a['73'] = Instance.new('UIGradient', a['72'])
 a['73'].Enabled = false
 a['73'].Rotation = - 90
-a['73'].Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(159, 168, 218))
-}
+a['73'].Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(57, 73, 171)), ColorSequenceKeypoint.new(1, Color3.fromRGB(57, 73, 171))}
 a['74'] = Instance.new('TextLabel', a['6f'])
 a['74'].TextWrapped = true
 a['74'].BorderSizePixel = 0
@@ -888,7 +860,7 @@ a['74'].TextXAlignment = Enum.TextXAlignment.Left
 a['74'].TextScaled = true
 a['74'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a['74'].FontFace = Font.new('rbxasset://fonts/families/GothamSSm.json', Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-a['74'].TextColor3 = Color3.fromRGB(159, 168, 218)
+a['74'].TextColor3 = Color3.fromRGB(57, 73, 171)
 a['74'].BackgroundTransparency = 1
 a['74'].AnchorPoint = Vector2.new(0, 0.5)
 a['74'].Size = UDim2.new(0, 235, 0, 18)
@@ -900,7 +872,7 @@ a['75'] = Instance.new('ImageButton', a['74'])
 a['75'].BorderSizePixel = 0
 a['75'].BackgroundTransparency = 1
 a['75'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-a['75'].ImageColor3 = Color3.fromRGB(159, 168, 218)
+a['75'].ImageColor3 = Color3.fromRGB(57, 73, 171)
 a['75'].AnchorPoint = Vector2.new(0, 0.5)
 a['75'].Image = 'rbxassetid://132453323679056'
 a['75'].Size = UDim2.new(0.09706, 0, 1.33333, 0)
@@ -914,7 +886,7 @@ a['78'] = Instance.new('ImageButton', a['74'])
 a['78'].BorderSizePixel = 0
 a['78'].BackgroundTransparency = 1
 a['78'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-a['78'].ImageColor3 = Color3.fromRGB(159, 168, 218)
+a['78'].ImageColor3 = Color3.fromRGB(57, 73, 171)
 a['78'].AnchorPoint = Vector2.new(0, 0.5)
 a['78'].Image = 'rbxassetid://92049322344253'
 a['78'].Size = UDim2.new(0.09706, 0, 1.33333, 0)
@@ -929,7 +901,7 @@ a['7a'].TextSize = 16
 a['7a'].TextXAlignment = Enum.TextXAlignment.Left
 a['7a'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a['7a'].FontFace = Font.new('rbxasset://fonts/families/GothamSSm.json', Enum.FontWeight.Medium, Enum.FontStyle.Normal)
-a['7a'].TextColor3 = Color3.fromRGB(159, 168, 218)
+a['7a'].TextColor3 = Color3.fromRGB(57, 73, 171)
 a['7a'].BackgroundTransparency = 1
 a['7a'].AnchorPoint = Vector2.new(0, 0.5)
 a['7a'].Size = UDim2.new(0, 218, 0, 10)
@@ -942,10 +914,7 @@ a['7a'].Position = UDim2.new(0, 0, 0, 19)
 a['7b'] = Instance.new('UIGradient', a['7a'])
 a['7b'].Enabled = false
 a['7b'].Rotation = - 90
-a['7b'].Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(159, 168, 218))
-}
+a['7b'].Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(57, 73, 171)), ColorSequenceKeypoint.new(1, Color3.fromRGB(57, 73, 171))}
 a['7c'] = Instance.new('Frame', a['6e'])
 a['7c'].BorderSizePixel = 0
 a['7c'].BackgroundColor3 = Color3.fromRGB(57, 73, 171)
@@ -971,7 +940,7 @@ a['81'] = Instance.new('UICorner', a['6e'])
 a['82'] = Instance.new('Frame', a['41'])
 a['82'].Visible = false
 a['82'].BorderSizePixel = 0
-a['82'].BackgroundColor3 = Color3.fromRGB(40, 53, 147)
+a['82'].BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a['82'].AutomaticSize = Enum.AutomaticSize.Y
 a['82'].Size = UDim2.new(1, 0, 0, 35)
 a['82'].Position = UDim2.new(- 3.75E-2, 0, 0.38434, 0)
@@ -991,7 +960,7 @@ a['85'].TextSize = 16
 a['85'].TextXAlignment = Enum.TextXAlignment.Left
 a['85'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a['85'].FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-a['85'].TextColor3 = Color3.fromRGB(159, 168, 218)
+a['85'].TextColor3 = Color3.fromRGB(57, 73, 171)
 a['85'].BackgroundTransparency = 1
 a['85'].Size = UDim2.new(1, 0, 0, 15)
 a['85'].BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1014,7 +983,7 @@ a['88'].TextSize = 16
 a['88'].TextXAlignment = Enum.TextXAlignment.Left
 a['88'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a['88'].FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.Medium, Enum.FontStyle.Normal)
-a['88'].TextColor3 = Color3.fromRGB(159, 168, 218)
+a['88'].TextColor3 = Color3.fromRGB(57, 73, 171)
 a['88'].BackgroundTransparency = 1
 a['88'].Size = UDim2.new(1, 0, 0, 15)
 a['88'].Visible = false
@@ -1052,7 +1021,7 @@ a['8b'].Name = 'DropShadow'
 a['8b'].Position = UDim2.new(0.5, 0, 0.5, 0)
 a['8c'] = Instance.new('CanvasGroup', a['8a'])
 a['8c'].BorderSizePixel = 0
-a['8c'].BackgroundColor3 = Color3.fromRGB(40, 53, 147)
+a['8c'].BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a['8c'].Size = UDim2.new(1, 0, 1, 0)
 a['8c'].BorderColor3 = Color3.fromRGB(0, 0, 0)
 a['8c'].Name = 'Slider'
@@ -1098,7 +1067,7 @@ a['92'].CornerRadius = UDim.new(0, 4)
 a['93'] = Instance.new('UIStroke', a['91'])
 a['93'].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 a['93'].Thickness = 1.5
-a['93'].Color = Color3.fromRGB(92, 107, 192)
+a['93'].Color = Color3.fromRGB(57, 73, 171)
 a['94'] = Instance.new('ImageButton', a['91'])
 a['94'].Active = false
 a['94'].Interactable = false
@@ -1115,33 +1084,12 @@ a['95'] = Instance.new('UICorner', a['94'])
 a['95'].CornerRadius = UDim.new(0, 4)
 a['96'] = Instance.new('UIGradient', a['94'])
 a['96'].Enabled = false
-a['96'].Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(0.16, Color3.fromRGB(121, 134, 203)),
-    ColorSequenceKeypoint.new(0.32, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(0.54, Color3.fromRGB(57, 73, 171)),
-    ColorSequenceKeypoint.new(0.782, Color3.fromRGB(121, 134, 203)),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(92, 107, 192))
-}
+a['96'].Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(57, 73, 171)), ColorSequenceKeypoint.new(1, Color3.fromRGB(57, 73, 171))}
 a['97'] = Instance.new('UIGradient', a['94'])
 a['97'].Enabled = false
-a['97'].Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(0.16, Color3.fromRGB(57, 73, 171)),
-    ColorSequenceKeypoint.new(0.32, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(0.54, Color3.fromRGB(121, 134, 203)),
-    ColorSequenceKeypoint.new(0.782, Color3.fromRGB(57, 73, 171)),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(92, 107, 192))
-}
+a['97'].Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(57, 73, 171)), ColorSequenceKeypoint.new(1, Color3.fromRGB(57, 73, 171))}
 a['98'] = Instance.new('UIGradient', a['94'])
-a['98'].Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(57, 73, 171)),
-    ColorSequenceKeypoint.new(0.16, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(0.32, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(0.54, Color3.fromRGB(57, 73, 171)),
-    ColorSequenceKeypoint.new(0.782, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(92, 107, 192))
-}
+a['98'].Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(57, 73, 171)), ColorSequenceKeypoint.new(1, Color3.fromRGB(57, 73, 171))}
 a['99'] = Instance.new('TextLabel', a['8a'])
 a['99'].TextWrapped = true
 a['99'].Interactable = false
@@ -1151,7 +1099,7 @@ a['99'].TextSize = 14
 a['99'].TextXAlignment = Enum.TextXAlignment.Left
 a['99'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a['99'].FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-a['99'].TextColor3 = Color3.fromRGB(159, 168, 218)
+a['99'].TextColor3 = Color3.fromRGB(57, 73, 171)
 a['99'].BackgroundTransparency = 1
 a['99'].RichText = true
 a['99'].AnchorPoint = Vector2.new(0.5, 0.5)
@@ -1163,7 +1111,7 @@ a['99'].Position = UDim2.new(0.5, 0, 0.5, 0)
 a['9a'] = Instance.new('Frame', a['41'])
 a['9a'].Visible = false
 a['9a'].BorderSizePixel = 0
-a['9a'].BackgroundColor3 = Color3.fromRGB(40, 53, 147)
+a['9a'].BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a['9a'].AutomaticSize = Enum.AutomaticSize.Y
 a['9a'].Size = UDim2.new(1, 0, 0, 35)
 a['9a'].Position = UDim2.new(- 3.75E-2, 0, 0.38434, 0)
@@ -1183,7 +1131,7 @@ a['9d'].TextSize = 16
 a['9d'].TextXAlignment = Enum.TextXAlignment.Left
 a['9d'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a['9d'].FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-a['9d'].TextColor3 = Color3.fromRGB(159, 168, 218)
+a['9d'].TextColor3 = Color3.fromRGB(57, 73, 171)
 a['9d'].BackgroundTransparency = 1
 a['9d'].Size = UDim2.new(1, 0, 0, 15)
 a['9d'].BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1206,7 +1154,7 @@ a.a0.TextSize = 16
 a.a0.TextXAlignment = Enum.TextXAlignment.Left
 a.a0.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a.a0.FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.Medium, Enum.FontStyle.Normal)
-a.a0.TextColor3 = Color3.fromRGB(159, 168, 218)
+a.a0.TextColor3 = Color3.fromRGB(57, 73, 171)
 a.a0.BackgroundTransparency = 1
 a.a0.Size = UDim2.new(1, 0, 0, 15)
 a.a0.Visible = false
@@ -1238,7 +1186,7 @@ a.a2.Name = 'DropShadow'
 a.a2.Position = UDim2.new(0.5, 0, 0.5, 0)
 a.a3 = Instance.new('Frame', a.a1)
 a.a3.BorderSizePixel = 0
-a.a3.BackgroundColor3 = Color3.fromRGB(40, 53, 147)
+a.a3.BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a.a3.AutomaticSize = Enum.AutomaticSize.Y
 a.a3.Size = UDim2.new(1, 0, 0, 25)
 a.a3.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1255,12 +1203,12 @@ a.a6.VerticalAlignment = Enum.VerticalAlignment.Center
 a.a6.SortOrder = Enum.SortOrder.LayoutOrder
 a.a7 = Instance.new('TextBox', a.a3)
 a.a7.TextXAlignment = Enum.TextXAlignment.Left
-a.a7.PlaceholderColor3 = Color3.fromRGB(159, 168, 218)
+a.a7.PlaceholderColor3 = Color3.fromRGB(57, 73, 171)
 a.a7.BorderSizePixel = 0
 a.a7.TextWrapped = true
 a.a7.TextTruncate = Enum.TextTruncate.AtEnd
 a.a7.TextSize = 14
-a.a7.TextColor3 = Color3.fromRGB(159, 168, 218)
+a.a7.TextColor3 = Color3.fromRGB(57, 73, 171)
 a.a7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a.a7.FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.Medium, Enum.FontStyle.Normal)
 a.a7.AutomaticSize = Enum.AutomaticSize.Y
@@ -1279,7 +1227,7 @@ a.a9 = Instance.new('ImageButton', a['41'])
 a.a9.BorderSizePixel = 0
 a.a9.AutoButtonColor = false
 a.a9.Visible = false
-a.a9.BackgroundColor3 = Color3.fromRGB(40, 53, 147)
+a.a9.BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a.a9.Selectable = false
 a.a9.AutomaticSize = Enum.AutomaticSize.Y
 a.a9.Size = UDim2.new(1, 0, 0, 35)
@@ -1299,7 +1247,7 @@ a.ac.TextSize = 16
 a.ac.TextXAlignment = Enum.TextXAlignment.Left
 a.ac.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a.ac.FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
-a.ac.TextColor3 = Color3.fromRGB(159, 168, 218)
+a.ac.TextColor3 = Color3.fromRGB(57, 73, 171)
 a.ac.BackgroundTransparency = 1
 a.ac.Size = UDim2.new(1, 0, 0, 15)
 a.ac.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1311,7 +1259,7 @@ a.ad.BorderSizePixel = 0
 a.ad.AutoButtonColor = false
 a.ad.BackgroundTransparency = 1
 a.ad.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-a.ad.ImageColor3 = Color3.fromRGB(159, 168, 218)
+a.ad.ImageColor3 = Color3.fromRGB(57, 73, 171)
 a.ad.AnchorPoint = Vector2.new(1, 0.5)
 a.ad.Image = 'rbxassetid://77563793724007'
 a.ad.Size = UDim2.new(0, 23, 0, 23)
@@ -1348,7 +1296,7 @@ a.af.Position = UDim2.new(0.5, 0, 0.5, 0)
 a.b0 = Instance.new('ImageButton', a.ae)
 a.b0.BorderSizePixel = 0
 a.b0.AutoButtonColor = false
-a.b0.BackgroundColor3 = Color3.fromRGB(40, 53, 147)
+a.b0.BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a.b0.Selectable = false
 a.b0.AnchorPoint = Vector2.new(0.5, 0.5)
 a.b0.AutomaticSize = Enum.AutomaticSize.X
@@ -1374,7 +1322,7 @@ a.b4.TextSize = 16
 a.b4.TextScaled = true
 a.b4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a.b4.FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.Medium, Enum.FontStyle.Normal)
-a.b4.TextColor3 = Color3.fromRGB(159, 168, 218)
+a.b4.TextColor3 = Color3.fromRGB(57, 73, 171)
 a.b4.BackgroundTransparency = 1
 a.b4.AnchorPoint = Vector2.new(0, 0.5)
 a.b4.Size = UDim2.new(0, 15, 0, 14)
@@ -1402,7 +1350,7 @@ a.b8.TextSize = 16
 a.b8.TextXAlignment = Enum.TextXAlignment.Left
 a.b8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a.b8.FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.Medium, Enum.FontStyle.Normal)
-a.b8.TextColor3 = Color3.fromRGB(159, 168, 218)
+a.b8.TextColor3 = Color3.fromRGB(57, 73, 171)
 a.b8.BackgroundTransparency = 1
 a.b8.Size = UDim2.new(1, 0, 0, 15)
 a.b8.Visible = false
@@ -1413,34 +1361,13 @@ a.b8.AutomaticSize = Enum.AutomaticSize.Y
 a.b8.Name = 'Description'
 a.b9 = Instance.new('UIGradient', a.a9)
 a.b9.Enabled = false
-a.b9.Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(57, 73, 171)),
-    ColorSequenceKeypoint.new(0.16, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(0.32, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(0.54, Color3.fromRGB(57, 73, 171)),
-    ColorSequenceKeypoint.new(0.782, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(92, 107, 192))
-}
+a.b9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(57, 73, 171)), ColorSequenceKeypoint.new(1, Color3.fromRGB(57, 73, 171))}
 a.ba = Instance.new('UIGradient', a.a9)
 a.ba.Enabled = false
-a.ba.Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(0.16, Color3.fromRGB(57, 73, 171)),
-    ColorSequenceKeypoint.new(0.32, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(0.54, Color3.fromRGB(121, 134, 203)),
-    ColorSequenceKeypoint.new(0.782, Color3.fromRGB(57, 73, 171)),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(92, 107, 192))
-}
+a.ba.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(57, 73, 171)), ColorSequenceKeypoint.new(1, Color3.fromRGB(57, 73, 171))}
 a.bb = Instance.new('UIGradient', a.a9)
 a.bb.Enabled = false
-a.bb.Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(0.16, Color3.fromRGB(121, 134, 203)),
-    ColorSequenceKeypoint.new(0.32, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(0.54, Color3.fromRGB(57, 73, 171)),
-    ColorSequenceKeypoint.new(0.782, Color3.fromRGB(121, 134, 203)),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(92, 107, 192))
-}
+a.bb.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(57, 73, 171)), ColorSequenceKeypoint.new(1, Color3.fromRGB(57, 73, 171))}
 a.bc = Instance.new('Folder', a['41'])
 a.bc.Name = 'DropdownList'
 a.bd = Instance.new('ScrollingFrame', a.bc)
@@ -1457,7 +1384,7 @@ a.bd.Selectable = false
 a.bd.BottomImage = 'rbxasset://textures/ui/Scroll/scroll-middle.png'
 a.bd.AutomaticCanvasSize = Enum.AutomaticSize.Y
 a.bd.Size = UDim2.new(1, 0, 1, - 50)
-a.bd.ScrollBarImageColor3 = Color3.fromRGB(121, 134, 203)
+a.bd.ScrollBarImageColor3 = Color3.fromRGB(57, 73, 171)
 a.bd.Position = UDim2.new(0, 0, 0, 50)
 a.bd.BorderColor3 = Color3.fromRGB(0, 0, 0)
 a.bd.ScrollBarThickness = 5
@@ -1484,7 +1411,7 @@ a.c0.Selectable = false
 a.c0.BottomImage = 'rbxasset://textures/ui/Scroll/scroll-middle.png'
 a.c0.AutomaticCanvasSize = Enum.AutomaticSize.Y
 a.c0.Size = UDim2.new(1, 0, 1, - 50)
-a.c0.ScrollBarImageColor3 = Color3.fromRGB(121, 134, 203)
+a.c0.ScrollBarImageColor3 = Color3.fromRGB(57, 73, 171)
 a.c0.Position = UDim2.new(0, 0, 0, 50)
 a.c0.BorderColor3 = Color3.fromRGB(0, 0, 0)
 a.c0.ScrollBarThickness = 5
@@ -1501,7 +1428,7 @@ a.c3 = Instance.new('ImageButton', a['41'])
 a.c3.BorderSizePixel = 0
 a.c3.AutoButtonColor = false
 a.c3.Visible = false
-a.c3.BackgroundColor3 = Color3.fromRGB(40, 53, 147)
+a.c3.BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a.c3.Selectable = false
 a.c3.AutomaticSize = Enum.AutomaticSize.Y
 a.c3.Size = UDim2.new(1, 0, 0, 35)
@@ -1532,7 +1459,7 @@ a.c8.BorderSizePixel = 0
 a.c8.TextSize = 16
 a.c8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a.c8.FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
-a.c8.TextColor3 = Color3.fromRGB(159, 168, 218)
+a.c8.TextColor3 = Color3.fromRGB(57, 73, 171)
 a.c8.BackgroundTransparency = 1
 a.c8.Size = UDim2.new(1, 0, 0, 15)
 a.c8.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1546,7 +1473,7 @@ a.c9.TextSize = 16
 a.c9.TextXAlignment = Enum.TextXAlignment.Left
 a.c9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a.c9.FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.Medium, Enum.FontStyle.Normal)
-a.c9.TextColor3 = Color3.fromRGB(159, 168, 218)
+a.c9.TextColor3 = Color3.fromRGB(57, 73, 171)
 a.c9.BackgroundTransparency = 1
 a.c9.Size = UDim2.new(1, 0, 0, 15)
 a.c9.Visible = false
@@ -1556,34 +1483,13 @@ a.c9.LayoutOrder = 1
 a.c9.AutomaticSize = Enum.AutomaticSize.Y
 a.c9.Name = 'Description'
 a.ca = Instance.new('UIGradient', a.c5)
-a.ca.Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(57, 73, 171)),
-    ColorSequenceKeypoint.new(0.16, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(0.32, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(0.54, Color3.fromRGB(57, 73, 171)),
-    ColorSequenceKeypoint.new(0.782, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(92, 107, 192))
-}
+a.ca.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(57, 73, 171)), ColorSequenceKeypoint.new(1, Color3.fromRGB(57, 73, 171))}
 a.cb = Instance.new('UIGradient', a.c5)
 a.cb.Enabled = false
-a.cb.Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(0.16, Color3.fromRGB(121, 134, 203)),
-    ColorSequenceKeypoint.new(0.32, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(0.54, Color3.fromRGB(57, 73, 171)),
-    ColorSequenceKeypoint.new(0.782, Color3.fromRGB(121, 134, 203)),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(92, 107, 192))
-}
+a.cb.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(57, 73, 171)), ColorSequenceKeypoint.new(1, Color3.fromRGB(57, 73, 171))}
 a.cc = Instance.new('UIGradient', a.c5)
 a.cc.Enabled = false
-a.cc.Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(0.16, Color3.fromRGB(57, 73, 171)),
-    ColorSequenceKeypoint.new(0.32, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(0.54, Color3.fromRGB(121, 134, 203)),
-    ColorSequenceKeypoint.new(0.782, Color3.fromRGB(57, 73, 171)),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(92, 107, 192))
-}
+a.cc.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(57, 73, 171)), ColorSequenceKeypoint.new(1, Color3.fromRGB(57, 73, 171))}
 a.cd = Instance.new('UICorner', a.c5)
 a.cd.CornerRadius = UDim.new(0, 6)
 a.ce = Instance.new('UIStroke', a.c3)
@@ -1593,7 +1499,7 @@ a.ce.Color = Color3.fromRGB(57, 73, 171)
 a.cf = Instance.new('Frame', a['41'])
 a.cf.Visible = false
 a.cf.BorderSizePixel = 0
-a.cf.BackgroundColor3 = Color3.fromRGB(40, 53, 147)
+a.cf.BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a.cf.AutomaticSize = Enum.AutomaticSize.Y
 a.cf.Size = UDim2.new(1, 0, 0, 35)
 a.cf.Position = UDim2.new(- 3.75E-2, 0, 0.38434, 0)
@@ -1613,7 +1519,7 @@ a.d2.TextSize = 16
 a.d2.TextXAlignment = Enum.TextXAlignment.Left
 a.d2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a.d2.FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-a.d2.TextColor3 = Color3.fromRGB(159, 168, 218)
+a.d2.TextColor3 = Color3.fromRGB(57, 73, 171)
 a.d2.BackgroundTransparency = 1
 a.d2.Size = UDim2.new(1, 0, 0, 15)
 a.d2.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1635,7 +1541,7 @@ a.d5.BorderSizePixel = 0
 a.d5.TextEditable = false
 a.d5.TextWrapped = true
 a.d5.TextSize = 16
-a.d5.TextColor3 = Color3.fromRGB(159, 168, 218)
+a.d5.TextColor3 = Color3.fromRGB(57, 73, 171)
 a.d5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a.d5.FontFace = Font.new('rbxasset://fonts/families/Inconsolata.json', Enum.FontWeight.Medium, Enum.FontStyle.Normal)
 a.d5.AutomaticSize = Enum.AutomaticSize.Y
@@ -1650,7 +1556,7 @@ a.d5.BackgroundTransparency = 1
 a.d6 = Instance.new('Frame', a['41'])
 a.d6.Visible = false
 a.d6.BorderSizePixel = 0
-a.d6.BackgroundColor3 = Color3.fromRGB(40, 53, 147)
+a.d6.BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a.d6.AutomaticSize = Enum.AutomaticSize.Y
 a.d6.Size = UDim2.new(1, 0, 0, 35)
 a.d6.Position = UDim2.new(0, 0, 0.43728, 0)
@@ -1660,7 +1566,7 @@ a.d6.BackgroundTransparency = 1
 a.d7 = Instance.new('ImageButton', a.d6)
 a.d7.BorderSizePixel = 0
 a.d7.AutoButtonColor = false
-a.d7.BackgroundColor3 = Color3.fromRGB(40, 53, 147)
+a.d7.BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a.d7.Selectable = false
 a.d7.AutomaticSize = Enum.AutomaticSize.Y
 a.d7.Size = UDim2.new(1, 0, 0, 35)
@@ -1680,7 +1586,7 @@ a.da.TextSize = 16
 a.da.TextXAlignment = Enum.TextXAlignment.Left
 a.da.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a.da.FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
-a.da.TextColor3 = Color3.fromRGB(159, 168, 218)
+a.da.TextColor3 = Color3.fromRGB(57, 73, 171)
 a.da.BackgroundTransparency = 1
 a.da.Size = UDim2.new(1, 0, 0, 15)
 a.da.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1691,7 +1597,7 @@ a.db.BorderSizePixel = 0
 a.db.AutoButtonColor = false
 a.db.BackgroundTransparency = 1
 a.db.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-a.db.ImageColor3 = Color3.fromRGB(159, 168, 218)
+a.db.ImageColor3 = Color3.fromRGB(57, 73, 171)
 a.db.AnchorPoint = Vector2.new(1, 0.5)
 a.db.Image = 'rbxassetid://120292618616139'
 a.db.Size = UDim2.new(0, 23, 0, 23)
@@ -1714,7 +1620,7 @@ a.de.TextSize = 16
 a.de.TextXAlignment = Enum.TextXAlignment.Left
 a.de.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a.de.FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.Medium, Enum.FontStyle.Normal)
-a.de.TextColor3 = Color3.fromRGB(159, 168, 218)
+a.de.TextColor3 = Color3.fromRGB(57, 73, 171)
 a.de.BackgroundTransparency = 1
 a.de.Size = UDim2.new(1, 0, 0, 15)
 a.de.Visible = false
@@ -1725,38 +1631,17 @@ a.de.AutomaticSize = Enum.AutomaticSize.Y
 a.de.Name = 'Description'
 a.df = Instance.new('UIGradient', a.d7)
 a.df.Enabled = false
-a.df.Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(57, 73, 171)),
-    ColorSequenceKeypoint.new(0.16, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(0.32, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(0.54, Color3.fromRGB(57, 73, 171)),
-    ColorSequenceKeypoint.new(0.782, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(92, 107, 192))
-}
+a.df.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(57, 73, 171)), ColorSequenceKeypoint.new(1, Color3.fromRGB(57, 73, 171))}
 a.e0 = Instance.new('UIGradient', a.d7)
 a.e0.Enabled = false
 a.e0.Transparency = NumberSequence.new{
     NumberSequenceKeypoint.new(0, 1),
     NumberSequenceKeypoint.new(1, 1)
 }
-a.e0.Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(0.16, Color3.fromRGB(57, 73, 171)),
-    ColorSequenceKeypoint.new(0.32, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(0.54, Color3.fromRGB(121, 134, 203)),
-    ColorSequenceKeypoint.new(0.782, Color3.fromRGB(57, 73, 171)),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(92, 107, 192))
-}
+a.e0.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(57, 73, 171)), ColorSequenceKeypoint.new(1, Color3.fromRGB(57, 73, 171))}
 a.e1 = Instance.new('UIGradient', a.d7)
 a.e1.Enabled = false
-a.e1.Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(0.16, Color3.fromRGB(121, 134, 203)),
-    ColorSequenceKeypoint.new(0.32, Color3.fromRGB(92, 107, 192)),
-    ColorSequenceKeypoint.new(0.54, Color3.fromRGB(57, 73, 171)),
-    ColorSequenceKeypoint.new(0.782, Color3.fromRGB(121, 134, 203)),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(92, 107, 192))
-}
+a.e1.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(57, 73, 171)), ColorSequenceKeypoint.new(1, Color3.fromRGB(57, 73, 171))}
 a.e2 = Instance.new('UIStroke', a.d7)
 a.e2.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 a.e2.Thickness = 1.5
@@ -1764,7 +1649,7 @@ a.e2.Color = Color3.fromRGB(57, 73, 171)
 a.e3 = Instance.new('Frame', a.d6)
 a.e3.Visible = false
 a.e3.BorderSizePixel = 0
-a.e3.BackgroundColor3 = Color3.fromRGB(197, 202, 233)
+a.e3.BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a.e3.AutomaticSize = Enum.AutomaticSize.Y
 a.e3.Size = UDim2.new(1, 0, 0, 30)
 a.e3.Position = UDim2.new(0, 0, 0, 35)
@@ -1800,7 +1685,7 @@ a.ea = Instance.new('Frame', a.e7)
 a.ea.Visible = false
 a.ea.ZIndex = 4
 a.ea.BorderSizePixel = 0
-a.ea.BackgroundColor3 = Color3.fromRGB(26, 35, 126)
+a.ea.BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a.ea.AnchorPoint = Vector2.new(0.5, 0.5)
 a.ea.ClipsDescendants = true
 a.ea.AutomaticSize = Enum.AutomaticSize.Y
@@ -1830,7 +1715,7 @@ a.ee.TextSize = 20
 a.ee.TextXAlignment = Enum.TextXAlignment.Left
 a.ee.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a.ee.FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
-a.ee.TextColor3 = Color3.fromRGB(159, 168, 218)
+a.ee.TextColor3 = Color3.fromRGB(57, 73, 171)
 a.ee.BackgroundTransparency = 1
 a.ee.AnchorPoint = Vector2.new(0, 0.5)
 a.ee.Size = UDim2.new(0, 0, 0, 20)
@@ -1854,7 +1739,7 @@ a.f1.BorderSizePixel = 0
 a.f1.Visible = false
 a.f1.BackgroundTransparency = 1
 a.f1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-a.f1.ImageColor3 = Color3.fromRGB(159, 168, 218)
+a.f1.ImageColor3 = Color3.fromRGB(57, 73, 171)
 a.f1.Size = UDim2.new(0, 33, 0, 25)
 a.f1.BorderColor3 = Color3.fromRGB(0, 0, 0)
 a.f1.Name = 'Icon'
@@ -1891,7 +1776,7 @@ a.f7.TextXAlignment = Enum.TextXAlignment.Left
 a.f7.TextYAlignment = Enum.TextYAlignment.Top
 a.f7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a.f7.FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
-a.f7.TextColor3 = Color3.fromRGB(159, 168, 218)
+a.f7.TextColor3 = Color3.fromRGB(57, 73, 171)
 a.f7.BackgroundTransparency = 1
 a.f7.Size = UDim2.new(1, 0, 0, 0)
 a.f7.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1932,7 +1817,7 @@ a.fc.BackgroundTransparency = 1
 a.fd = Instance.new('TextButton', a.fc)
 a.fd.BorderSizePixel = 0
 a.fd.AutoButtonColor = false
-a.fd.BackgroundColor3 = Color3.fromRGB(40, 53, 147)
+a.fd.BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a.fd.Selectable = false
 a.fd.AnchorPoint = Vector2.new(0.5, 0.5)
 a.fd.Size = UDim2.new(1, 0, 1, 0)
@@ -1958,7 +1843,7 @@ a['101'].TextSize = 14
 a['101'].TextScaled = true
 a['101'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a['101'].FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-a['101'].TextColor3 = Color3.fromRGB(159, 168, 218)
+a['101'].TextColor3 = Color3.fromRGB(57, 73, 171)
 a['101'].BackgroundTransparency = 1
 a['101'].Size = UDim2.new(1, 0, 0.45, 0)
 a['101'].BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1986,7 +1871,7 @@ a['105'] = Instance.new('Frame', a['1'])
 a['105'].Visible = false
 a['105'].ZIndex = 0
 a['105'].BorderSizePixel = 2
-a['105'].BackgroundColor3 = Color3.fromRGB(63, 81, 181)
+a['105'].BackgroundColor3 = Color3.fromRGB(57, 73, 171)
 a['105'].AnchorPoint = Vector2.new(0.5, 0.5)
 a['105'].ClipsDescendants = true
 a['105'].AutomaticSize = Enum.AutomaticSize.X
@@ -2000,7 +1885,7 @@ a['107'] = Instance.new('UIStroke', a['105'])
 a['107'].Transparency = 0.5
 a['107'].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 a['107'].Thickness = 1.5
-a['107'].Color = Color3.fromRGB(63, 81, 181)
+a['107'].Color = Color3.fromRGB(57, 73, 171)
 a['108'] = Instance.new('UIPadding', a['105'])
 a['108'].PaddingTop = UDim.new(0, 8)
 a['108'].PaddingRight = UDim.new(0, 10)
@@ -2031,7 +1916,7 @@ a['10c'].BorderSizePixel = 0
 a['10c'].TextSize = 16
 a['10c'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a['10c'].FontFace = Font.new('rbxassetid://11702779517', Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
-a['10c'].TextColor3 = Color3.fromRGB(159, 168, 218)
+a['10c'].TextColor3 = Color3.fromRGB(57, 73, 171)
 a['10c'].BackgroundTransparency = 1
 a['10c'].AnchorPoint = Vector2.new(0.5, 0.5)
 a['10c'].Size = UDim2.new(0, 20, 0, 20)
@@ -2044,7 +1929,7 @@ a['10d'].BorderSizePixel = 0
 a['10d'].AutoButtonColor = false
 a['10d'].BackgroundTransparency = 1
 a['10d'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-a['10d'].ImageColor3 = Color3.fromRGB(159, 168, 218)
+a['10d'].ImageColor3 = Color3.fromRGB(57, 73, 171)
 a['10d'].Selectable = false
 a['10d'].AnchorPoint = Vector2.new(0, 0.5)
 a['10d'].Image = 'rbxassetid://122219713887461'
@@ -2439,11 +2324,11 @@ d[a['3e'] ] = {
                         W.Frame.Description.Text = V.Desc
                     end
                     if V.Locked then
-                        W.UIStroke.Color = Color3.fromRGB(40, 53, 147)
-                        W.BackgroundColor3 = Color3.fromRGB(26, 35, 126)
-                        W.Frame.Title.TextColor3 = Color3.fromRGB(63, 81, 181)
-                        W.Frame.Title.ClickIcon.ImageColor3 = Color3.fromRGB(63, 81, 181)
-                        W.Frame.Description.TextColor3 = Color3.fromRGB(63, 81, 181)
+                        W.UIStroke.Color = Color3.fromRGB(57, 73, 171)
+                        W.BackgroundColor3 = Color3.fromRGB(57, 73, 171)
+                        W.Frame.Title.TextColor3 = Color3.fromRGB(57, 73, 171)
+                        W.Frame.Title.ClickIcon.ImageColor3 = Color3.fromRGB(57, 73, 171)
+                        W.Frame.Description.TextColor3 = Color3.fromRGB(57, 73, 171)
                     end
                     W.Visible = true
                     local X = function()
@@ -2462,7 +2347,7 @@ d[a['3e'] ] = {
                     W.MouseEnter:Connect(function()
                         if not V.Locked then
                             o(W.UIStroke, {
-                                Color = Color3.fromRGB(92, 107, 192)
+                                Color = Color3.fromRGB(57, 73, 171)
                             }, n.Global)
                         end
                     end)
@@ -2471,12 +2356,12 @@ d[a['3e'] ] = {
                             o(W.UIStroke, {
                                 Color = Color3.fromRGB(57, 73, 171)
                             }, n.Global)
-                            W.BackgroundColor3 = Color3.fromRGB(40, 53, 147)
+                            W.BackgroundColor3 = Color3.fromRGB(57, 73, 171)
                             o(W.Frame.Title, {
-                                TextColor3 = Color3.fromRGB(159, 168, 218)
+                                TextColor3 = Color3.fromRGB(57, 73, 171)
                             }, n.Global)
                             o(W.Frame.Description, {
-                                TextColor3 = Color3.fromRGB(159, 168, 218)
+                                TextColor3 = Color3.fromRGB(57, 73, 171)
                             }, n.Global)
                         end
                     end)
@@ -2500,13 +2385,13 @@ d[a['3e'] ] = {
                     W.MouseButton1Up:Connect(function()
                         if not V.Locked then
                             o(W.Frame.Title, {
-                                TextColor3 = Color3.fromRGB(159, 168, 218)
+                                TextColor3 = Color3.fromRGB(57, 73, 171)
                             }, n.Global)
                             o(W.Frame.Title.ClickIcon, {
-                                ImageColor3 = Color3.fromRGB(159, 168, 218)
+                                ImageColor3 = Color3.fromRGB(57, 73, 171)
                             }, n.Global)
                             o(W.Frame.Description, {
-                                TextColor3 = Color3.fromRGB(159, 168, 218)
+                                TextColor3 = Color3.fromRGB(57, 73, 171)
                             }, n.Global)
                             o(W.Frame, {
                                 BackgroundTransparency = 1
@@ -2516,13 +2401,13 @@ d[a['3e'] ] = {
                     W.MouseLeave:Connect(function()
                         if not V.Locked then
                             o(W.Frame.Title, {
-                                TextColor3 = Color3.fromRGB(159, 168, 218)
+                                TextColor3 = Color3.fromRGB(57, 73, 171)
                             }, n.Global)
                             o(W.Frame.Title.ClickIcon, {
-                                ImageColor3 = Color3.fromRGB(159, 168, 218)
+                                ImageColor3 = Color3.fromRGB(57, 73, 171)
                             }, n.Global)
                             o(W.Frame.Description, {
-                                TextColor3 = Color3.fromRGB(159, 168, 218)
+                                TextColor3 = Color3.fromRGB(57, 73, 171)
                             }, n.Global)
                             o(W.Frame, {
                                 BackgroundTransparency = 1
@@ -2559,37 +2444,37 @@ d[a['3e'] ] = {
                     function U.Lock(Y)
                         V.Locked = true
                         o(W, {
-                            BackgroundColor3 = Color3.fromRGB(26, 35, 126)
-                        }, n.Global)
-                        o(W.UIStroke, {
-                            Color = Color3.fromRGB(40, 53, 147)
-                        }, n.Global)
-                        o(W.Frame.Title, {
-                            TextColor3 = Color3.fromRGB(63, 81, 181)
-                        }, n.Global)
-                        o(W.Frame.Title.ClickIcon, {
-                            ImageColor3 = Color3.fromRGB(63, 81, 181)
-                        }, n.Global)
-                        o(W.Frame.Description, {
-                            TextColor3 = Color3.fromRGB(63, 81, 181)
-                        }, n.Global)
-                    end
-                    function U.Unlock(Y)
-                        V.Locked = false
-                        o(W, {
-                            BackgroundColor3 = Color3.fromRGB(40, 53, 147)
+                            BackgroundColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(W.UIStroke, {
                             Color = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(W.Frame.Title, {
-                            TextColor3 = Color3.fromRGB(159, 168, 218)
+                            TextColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(W.Frame.Title.ClickIcon, {
-                            ImageColor3 = Color3.fromRGB(159, 168, 218)
+                            ImageColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(W.Frame.Description, {
-                            TextColor3 = Color3.fromRGB(159, 168, 218)
+                            TextColor3 = Color3.fromRGB(57, 73, 171)
+                        }, n.Global)
+                    end
+                    function U.Unlock(Y)
+                        V.Locked = false
+                        o(W, {
+                            BackgroundColor3 = Color3.fromRGB(57, 73, 171)
+                        }, n.Global)
+                        o(W.UIStroke, {
+                            Color = Color3.fromRGB(57, 73, 171)
+                        }, n.Global)
+                        o(W.Frame.Title, {
+                            TextColor3 = Color3.fromRGB(57, 73, 171)
+                        }, n.Global)
+                        o(W.Frame.Title.ClickIcon, {
+                            ImageColor3 = Color3.fromRGB(57, 73, 171)
+                        }, n.Global)
+                        o(W.Frame.Description, {
+                            TextColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                     end
                     function U.Destroy(Y)
@@ -2692,14 +2577,14 @@ d[a['3e'] ] = {
                         V.Title.Fill.Ball.Icon.ImageTransparency = 0
                     else
                         V.Title.Fill.Ball.Position = UDim2.new(0, 0, 0.5, 0)
-                        V.Title.Fill.BackgroundColor3 = Color3.fromRGB(40, 53, 147)
+                        V.Title.Fill.BackgroundColor3 = Color3.fromRGB(57, 73, 171)
                         V.Title.Fill.Ball.Icon.ImageTransparency = 1
                     end
                     if U.Locked then
-                        V.UIStroke.Color = Color3.fromRGB(40, 53, 147)
-                        V.BackgroundColor3 = Color3.fromRGB(26, 35, 126)
-                        V.Title.TextColor3 = Color3.fromRGB(63, 81, 181)
-                        V.Description.TextColor3 = Color3.fromRGB(63, 81, 181)
+                        V.UIStroke.Color = Color3.fromRGB(57, 73, 171)
+                        V.BackgroundColor3 = Color3.fromRGB(57, 73, 171)
+                        V.Title.TextColor3 = Color3.fromRGB(57, 73, 171)
+                        V.Description.TextColor3 = Color3.fromRGB(57, 73, 171)
                         V.Title.Fill.BackgroundTransparency = 0.7
                         V.Title.Fill.Ball.BackgroundTransparency = 0.7
                     end
@@ -2707,7 +2592,7 @@ d[a['3e'] ] = {
                     V.Title.Fill.MouseEnter:Connect(function()
                         if not U.Locked then
                             o(V.UIStroke, {
-                                Color = Color3.fromRGB(92, 107, 192)
+                                Color = Color3.fromRGB(57, 73, 171)
                             }, n.Global)
                         end
                     end)
@@ -2716,12 +2601,12 @@ d[a['3e'] ] = {
                             o(V.UIStroke, {
                                 Color = Color3.fromRGB(57, 73, 171)
                             }, n.Global)
-                            V.BackgroundColor3 = Color3.fromRGB(40, 53, 147)
+                            V.BackgroundColor3 = Color3.fromRGB(57, 73, 171)
                             o(V.Title, {
-                                TextColor3 = Color3.fromRGB(159, 168, 218)
+                                TextColor3 = Color3.fromRGB(57, 73, 171)
                             }, n.Global)
                             o(V.Description, {
-                                TextColor3 = Color3.fromRGB(159, 168, 218)
+                                TextColor3 = Color3.fromRGB(57, 73, 171)
                             }, n.Global)
                         end
                     end)
@@ -2741,7 +2626,7 @@ d[a['3e'] ] = {
                                 Position = UDim2.new(0, 0, 0.5, 0)
                             }, n.Global)
                             o(V.Title.Fill, {
-                                BackgroundColor3 = Color3.fromRGB(40, 53, 147)
+                                BackgroundColor3 = Color3.fromRGB(57, 73, 171)
                             }, n.Global)
                             o(V.Title.Fill.Ball.Icon, {
                                 ImageTransparency = 1
@@ -2778,16 +2663,16 @@ d[a['3e'] ] = {
                     function U.Lock(Y)
                         U.Locked = true
                         o(V, {
-                            BackgroundColor3 = Color3.fromRGB(26, 35, 126)
+                            BackgroundColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(V.UIStroke, {
-                            Color = Color3.fromRGB(40, 53, 147)
+                            Color = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(V.Title, {
-                            TextColor3 = Color3.fromRGB(63, 81, 181)
+                            TextColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(V.Description, {
-                            TextColor3 = Color3.fromRGB(63, 81, 181)
+                            TextColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(V.Title.Fill, {
                             BackgroundTransparency = 0.7
@@ -2799,16 +2684,16 @@ d[a['3e'] ] = {
                     function U.Unlock(Y)
                         U.Locked = false
                         o(V, {
-                            BackgroundColor3 = Color3.fromRGB(40, 53, 147)
+                            BackgroundColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(V.UIStroke, {
                             Color = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(V.Title, {
-                            TextColor3 = Color3.fromRGB(159, 168, 218)
+                            TextColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(V.Description, {
-                            TextColor3 = Color3.fromRGB(159, 168, 218)
+                            TextColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(V.Title.Fill, {
                             BackgroundTransparency = 0
@@ -2875,11 +2760,11 @@ d[a['3e'] ] = {
                     end)
                     aa()
                     if U.Locked then
-                        Y.UIStroke.Color = Color3.fromRGB(40, 53, 147)
-                        Y.BackgroundColor3 = Color3.fromRGB(26, 35, 126)
-                        Y.Title.TextColor3 = Color3.fromRGB(63, 81, 181)
-                        Y.Description.TextColor3 = Color3.fromRGB(63, 81, 181)
-                        Y.SliderFrame.Frame.Slider.UIStroke.Color = Color3.fromRGB(40, 53, 147)
+                        Y.UIStroke.Color = Color3.fromRGB(57, 73, 171)
+                        Y.BackgroundColor3 = Color3.fromRGB(57, 73, 171)
+                        Y.Title.TextColor3 = Color3.fromRGB(57, 73, 171)
+                        Y.Description.TextColor3 = Color3.fromRGB(57, 73, 171)
+                        Y.SliderFrame.Frame.Slider.UIStroke.Color = Color3.fromRGB(57, 73, 171)
                         Y.SliderFrame.Frame.Slider.BackgroundTransparency = 0.5
                         Y.SliderFrame.Frame.Slider.Fill.UIStroke.Transparency = 0.5
                         Y.SliderFrame.Frame.Slider.Fill.BackgroundGradient.BackgroundTransparency = 0.5
@@ -2932,7 +2817,7 @@ d[a['3e'] ] = {
                         ak = true
                         if not U.Locked then
                             o(Y.UIStroke, {
-                                Color = Color3.fromRGB(92, 107, 192)
+                                Color = Color3.fromRGB(57, 73, 171)
                             }, n.Global)
                         end
                     end)
@@ -2968,19 +2853,19 @@ d[a['3e'] ] = {
                     function U.Lock(ap)
                         U.Locked = true
                         o(Y, {
-                            BackgroundColor3 = Color3.fromRGB(26, 35, 126)
+                            BackgroundColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(Y.UIStroke, {
-                            Color = Color3.fromRGB(40, 53, 147)
+                            Color = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(Y.Title, {
-                            TextColor3 = Color3.fromRGB(63, 81, 181)
+                            TextColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(Y.Description, {
-                            TextColor3 = Color3.fromRGB(63, 81, 181)
+                            TextColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(Y.SliderFrame.Frame.Slider.UIStroke, {
-                            Color = Color3.fromRGB(40, 53, 147)
+                            Color = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(Y.SliderFrame.Frame.Slider, {
                             BackgroundTransparency = 0.5
@@ -2998,16 +2883,16 @@ d[a['3e'] ] = {
                     function U.Unlock(ap)
                         U.Locked = false
                         o(Y, {
-                            BackgroundColor3 = Color3.fromRGB(40, 53, 147)
+                            BackgroundColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(Y.UIStroke, {
                             Color = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(Y.Title, {
-                            TextColor3 = Color3.fromRGB(159, 168, 218)
+                            TextColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(Y.Description, {
-                            TextColor3 = Color3.fromRGB(159, 168, 218)
+                            TextColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(Y.SliderFrame.Frame.Slider.UIStroke, {
                             Color = Color3.fromRGB(57, 73, 171)
@@ -3054,14 +2939,14 @@ d[a['3e'] ] = {
                         ad.Description.Visible = false
                     end
                     if ac.Locked then
-                        ad.UIStroke.Color = Color3.fromRGB(40, 53, 147)
-                        ad.BackgroundColor3 = Color3.fromRGB(26, 35, 126)
-                        ad.Title.TextColor3 = Color3.fromRGB(63, 81, 181)
-                        ad.Description.TextColor3 = Color3.fromRGB(63, 81, 181)
-                        ad.BoxFrame.Frame.BackgroundColor3 = Color3.fromRGB(26, 35, 126)
-                        ad.BoxFrame.Frame.UIStroke.Color = Color3.fromRGB(40, 53, 147)
-                        ad.BoxFrame.Frame.TextBox.TextColor3 = Color3.fromRGB(63, 81, 181)
-                        ad.BoxFrame.Frame.TextBox.PlaceholderColor3 = Color3.fromRGB(63, 81, 181)
+                        ad.UIStroke.Color = Color3.fromRGB(57, 73, 171)
+                        ad.BackgroundColor3 = Color3.fromRGB(57, 73, 171)
+                        ad.Title.TextColor3 = Color3.fromRGB(57, 73, 171)
+                        ad.Description.TextColor3 = Color3.fromRGB(57, 73, 171)
+                        ad.BoxFrame.Frame.BackgroundColor3 = Color3.fromRGB(57, 73, 171)
+                        ad.BoxFrame.Frame.UIStroke.Color = Color3.fromRGB(57, 73, 171)
+                        ad.BoxFrame.Frame.TextBox.TextColor3 = Color3.fromRGB(57, 73, 171)
+                        ad.BoxFrame.Frame.TextBox.PlaceholderColor3 = Color3.fromRGB(57, 73, 171)
                         ad.BoxFrame.Frame.TextBox.Active = false
                         ad.BoxFrame.Frame.TextBox.Interactable = false
                         ad.BoxFrame.Frame.TextBox.TextEditable = false
@@ -3079,7 +2964,7 @@ d[a['3e'] ] = {
                     ad.BoxFrame.Frame.TextBox.MouseEnter:Connect(function()
                         if not ac.Locked then
                             o(ad.UIStroke, {
-                                Color = Color3.fromRGB(92, 107, 192)
+                                Color = Color3.fromRGB(57, 73, 171)
                             }, n.Global)
                         end
                     end)
@@ -3096,7 +2981,7 @@ d[a['3e'] ] = {
                                 Color = Color3.fromRGB(57, 73, 171)
                             }, n.Global)
                             o(ad.BoxFrame.Frame.UIStroke, {
-                                Color = Color3.fromRGB(92, 107, 192)
+                                Color = Color3.fromRGB(57, 73, 171)
                             }, n.Global)
                         end
                     end)
@@ -3130,26 +3015,26 @@ d[a['3e'] ] = {
                     function ac.Lock(ae)
                         ac.Locked = true
                         o(ad.UIStroke, {
-                            Color = Color3.fromRGB(40, 53, 147)
+                            Color = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(ad, {
-                            BackgroundColor3 = Color3.fromRGB(26, 35, 126)
+                            BackgroundColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(ad.Title, {
-                            TextColor3 = Color3.fromRGB(63, 81, 181)
+                            TextColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(ad.Description, {
-                            TextColor3 = Color3.fromRGB(63, 81, 181)
+                            TextColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(ad.BoxFrame.Frame, {
-                            BackgroundColor3 = Color3.fromRGB(26, 35, 126)
+                            BackgroundColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(ad.BoxFrame.Frame.UIStroke, {
-                            Color = Color3.fromRGB(40, 53, 147)
+                            Color = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(ad.BoxFrame.Frame.TextBox, {
-                            TextColor3 = Color3.fromRGB(63, 81, 181),
-                            PlaceholderColor3 = Color3.fromRGB(63, 81, 181)
+                            TextColor3 = Color3.fromRGB(57, 73, 171),
+                            PlaceholderColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         ad.BoxFrame.Frame.TextBox.Active = false
                         ad.BoxFrame.Frame.TextBox.Interactable = false
@@ -3161,23 +3046,23 @@ d[a['3e'] ] = {
                             Color = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(ad, {
-                            BackgroundColor3 = Color3.fromRGB(40, 53, 147)
+                            BackgroundColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(ad.Title, {
-                            TextColor3 = Color3.fromRGB(159, 168, 218)
+                            TextColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(ad.Description, {
-                            TextColor3 = Color3.fromRGB(159, 168, 218)
+                            TextColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(ad.BoxFrame.Frame, {
-                            BackgroundColor3 = Color3.fromRGB(40, 53, 147)
+                            BackgroundColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(ad.BoxFrame.Frame.UIStroke, {
                             Color = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(ad.BoxFrame.Frame.TextBox, {
-                            TextColor3 = Color3.fromRGB(159, 168, 218),
-                            PlaceholderColor3 = Color3.fromRGB(159, 168, 218)
+                            TextColor3 = Color3.fromRGB(57, 73, 171),
+                            PlaceholderColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         ad.BoxFrame.Frame.TextBox.Active = true
                         ad.BoxFrame.Frame.TextBox.Interactable = true
@@ -3235,14 +3120,14 @@ d[a['3e'] ] = {
                         af.Description.Visible = false
                     end
                     if ae.Locked then
-                        af.UIStroke.Color = Color3.fromRGB(40, 53, 147)
-                        af.BackgroundColor3 = Color3.fromRGB(26, 35, 126)
-                        af.Title.TextColor3 = Color3.fromRGB(63, 81, 181)
-                        af.Description.TextColor3 = Color3.fromRGB(63, 81, 181)
-                        af.Title.ClickIcon.ImageColor3 = Color3.fromRGB(63, 81, 181)
-                        af.Title.BoxFrame.Trigger.BackgroundColor3 = Color3.fromRGB(26, 35, 126)
-                        af.Title.BoxFrame.Trigger.UIStroke.Color = Color3.fromRGB(40, 53, 147)
-                        af.Title.BoxFrame.Trigger.Title.TextColor3 = Color3.fromRGB(63, 81, 181)
+                        af.UIStroke.Color = Color3.fromRGB(57, 73, 171)
+                        af.BackgroundColor3 = Color3.fromRGB(57, 73, 171)
+                        af.Title.TextColor3 = Color3.fromRGB(57, 73, 171)
+                        af.Description.TextColor3 = Color3.fromRGB(57, 73, 171)
+                        af.Title.ClickIcon.ImageColor3 = Color3.fromRGB(57, 73, 171)
+                        af.Title.BoxFrame.Trigger.BackgroundColor3 = Color3.fromRGB(57, 73, 171)
+                        af.Title.BoxFrame.Trigger.UIStroke.Color = Color3.fromRGB(57, 73, 171)
+                        af.Title.BoxFrame.Trigger.Title.TextColor3 = Color3.fromRGB(57, 73, 171)
                         af.Active = false
                         af.Interactable = false
                     end
@@ -3256,10 +3141,10 @@ d[a['3e'] ] = {
                             for am, an in ag.DropdownItems:GetChildren() do
                                 if an:IsA'GuiButton' and an.Name ~= aj then
                                     o(an.Frame.Title, {
-                                        TextColor3 = Color3.fromRGB(159, 168, 218)
+                                        TextColor3 = Color3.fromRGB(57, 73, 171)
                                     }, n.Global)
                                     o(an.Frame.Description, {
-                                        TextColor3 = Color3.fromRGB(159, 168, 218)
+                                        TextColor3 = Color3.fromRGB(57, 73, 171)
                                     }, n.Global)
                                     o(an.Frame, {
                                         BackgroundTransparency = 1
@@ -3272,10 +3157,10 @@ d[a['3e'] ] = {
                             for am, an in ag.DropdownItemsSearch:GetChildren() do
                                 if an:IsA'GuiButton' and an.Name ~= aj then
                                     o(an.Frame.Title, {
-                                        TextColor3 = Color3.fromRGB(159, 168, 218)
+                                        TextColor3 = Color3.fromRGB(57, 73, 171)
                                     }, n.Global)
                                     o(an.Frame.Description, {
-                                        TextColor3 = Color3.fromRGB(159, 168, 218)
+                                        TextColor3 = Color3.fromRGB(57, 73, 171)
                                     }, n.Global)
                                     o(an.Frame, {
                                         BackgroundTransparency = 1
@@ -3292,7 +3177,7 @@ d[a['3e'] ] = {
                                 TextColor3 = Color3.fromRGB(255, 255, 255)
                             }, n.Global)
                             o(ak.UIStroke, {
-                                Color = Color3.fromRGB(92, 107, 192)
+                                Color = Color3.fromRGB(57, 73, 171)
                             }, n.Global)
                             o(ak.Frame, {
                                 BackgroundTransparency = 0
@@ -3304,7 +3189,7 @@ d[a['3e'] ] = {
                                 TextColor3 = Color3.fromRGB(255, 255, 255)
                             }, n.Global)
                             o(al.UIStroke, {
-                                Color = Color3.fromRGB(92, 107, 192)
+                                Color = Color3.fromRGB(57, 73, 171)
                             }, n.Global)
                             o(al.Frame, {
                                 BackgroundTransparency = 0
@@ -3319,7 +3204,7 @@ d[a['3e'] ] = {
                                     end
                                     table.remove(ah, ao)
                                     o(am.Frame.Title, {
-                                        TextColor3 = Color3.fromRGB(159, 168, 218)
+                                        TextColor3 = Color3.fromRGB(57, 73, 171)
                                     }, n.Global)
                                     o(am.Frame.Description, {
                                         TextColor3 = Color3.fromRGB(196, 203, 2185)
@@ -3331,7 +3216,7 @@ d[a['3e'] ] = {
                                         BackgroundTransparency = 1
                                     }, n.Global)
                                     o(an.Frame.Title, {
-                                        TextColor3 = Color3.fromRGB(159, 168, 218)
+                                        TextColor3 = Color3.fromRGB(57, 73, 171)
                                     }, n.Global)
                                     o(an.Frame.Description, {
                                         TextColor3 = Color3.fromRGB(196, 203, 2185)
@@ -3351,7 +3236,7 @@ d[a['3e'] ] = {
                                         TextColor3 = Color3.fromRGB(255, 255, 255)
                                     }, n.Global)
                                     o(am.UIStroke, {
-                                        Color = Color3.fromRGB(92, 107, 192)
+                                        Color = Color3.fromRGB(57, 73, 171)
                                     }, n.Global)
                                     o(am.Frame, {
                                         BackgroundTransparency = 0
@@ -3363,7 +3248,7 @@ d[a['3e'] ] = {
                                         TextColor3 = Color3.fromRGB(255, 255, 255)
                                     }, n.Global)
                                     o(an.UIStroke, {
-                                        Color = Color3.fromRGB(92, 107, 192)
+                                        Color = Color3.fromRGB(57, 73, 171)
                                     }, n.Global)
                                     o(an.Frame, {
                                         BackgroundTransparency = 0
@@ -3413,12 +3298,12 @@ d[a['3e'] ] = {
                                 if ah == ao then
                                     ap.Frame.Title.TextColor3 = Color3.fromRGB(255, 255, 255)
                                     ap.Frame.Description.TextColor3 = Color3.fromRGB(255, 255, 255)
-                                    ap.UIStroke.Color = Color3.fromRGB(92, 107, 192)
+                                    ap.UIStroke.Color = Color3.fromRGB(57, 73, 171)
                                     ap.Frame.BackgroundTransparency = 0
                                     ap.Frame.Title.TextColor3 = Color3.fromRGB(255, 255, 255)
                                     aq.Frame.Title.TextColor3 = Color3.fromRGB(255, 255, 255)
                                     aq.Frame.Description.TextColor3 = Color3.fromRGB(255, 255, 255)
-                                    aq.UIStroke.Color = Color3.fromRGB(92, 107, 192)
+                                    aq.UIStroke.Color = Color3.fromRGB(57, 73, 171)
                                     aq.Frame.BackgroundTransparency = 0
                                     aq.Frame.Title.TextColor3 = Color3.fromRGB(255, 255, 255)
                                 end
@@ -3451,12 +3336,12 @@ d[a['3e'] ] = {
                                 if table.find(ah, ao) then
                                     ap.Frame.Title.TextColor3 = Color3.fromRGB(255, 255, 255)
                                     ap.Frame.Description.TextColor3 = Color3.fromRGB(255, 255, 255)
-                                    ap.UIStroke.Color = Color3.fromRGB(92, 107, 192)
+                                    ap.UIStroke.Color = Color3.fromRGB(57, 73, 171)
                                     ap.Frame.BackgroundTransparency = 0
                                     ap.Frame.Title.TextColor3 = Color3.fromRGB(255, 255, 255)
                                     aq.Frame.Title.TextColor3 = Color3.fromRGB(255, 255, 255)
                                     aq.Frame.Description.TextColor3 = Color3.fromRGB(255, 255, 255)
-                                    aq.UIStroke.Color = Color3.fromRGB(92, 107, 192)
+                                    aq.UIStroke.Color = Color3.fromRGB(57, 73, 171)
                                     aq.Frame.BackgroundTransparency = 0
                                     aq.Frame.Title.TextColor3 = Color3.fromRGB(255, 255, 255)
                                 end
@@ -3520,28 +3405,28 @@ d[a['3e'] ] = {
                     function ae.Lock(ak)
                         ae.Locked = true
                         o(af.UIStroke, {
-                            Color = Color3.fromRGB(40, 53, 147)
+                            Color = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(af, {
-                            BackgroundColor3 = Color3.fromRGB(26, 35, 126)
+                            BackgroundColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(af.Title, {
-                            TextColor3 = Color3.fromRGB(63, 81, 181)
+                            TextColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(af.Description, {
-                            TextColor3 = Color3.fromRGB(63, 81, 181)
+                            TextColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(af.Title.ClickIcon, {
-                            ImageColor3 = Color3.fromRGB(63, 81, 181)
+                            ImageColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(af.Title.BoxFrame.Trigger, {
-                            BackgroundColor3 = Color3.fromRGB(26, 35, 126)
+                            BackgroundColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(af.Title.BoxFrame.Trigger.UIStroke, {
-                            Color = Color3.fromRGB(40, 53, 147)
+                            Color = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(af.Title.BoxFrame.Trigger.Title, {
-                            TextColor3 = Color3.fromRGB(63, 81, 181)
+                            TextColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         af.Active = false
                         af.Interactable = false
@@ -3552,25 +3437,25 @@ d[a['3e'] ] = {
                             Color = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(af, {
-                            BackgroundColor3 = Color3.fromRGB(40, 53, 147)
+                            BackgroundColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(af.Title, {
-                            TextColor3 = Color3.fromRGB(159, 168, 218)
+                            TextColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(af.Description, {
-                            TextColor3 = Color3.fromRGB(159, 168, 218)
+                            TextColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(af.Title.ClickIcon, {
-                            ImageColor3 = Color3.fromRGB(159, 168, 218)
+                            ImageColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(af.Title.BoxFrame.Trigger, {
-                            BackgroundColor3 = Color3.fromRGB(40, 53, 147)
+                            BackgroundColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(af.Title.BoxFrame.Trigger.UIStroke, {
                             Color = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         o(af.Title.BoxFrame.Trigger.Title, {
-                            TextColor3 = Color3.fromRGB(159, 168, 218)
+                            TextColor3 = Color3.fromRGB(57, 73, 171)
                         }, n.Global)
                         af.Active = true
                         af.Interactable = true

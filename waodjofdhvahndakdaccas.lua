@@ -1,9 +1,10 @@
---v1.0
+--// XENO UI LIBRARY FINAL
+--// Android Friendly | Minimize + Close | NO ERROR
 
 local Players = game:GetService("Players")
 local UIS = game:GetService("UserInputService")
 local LP = Players.LocalPlayer
-
+--v1.1
 local UI = {}
 UI.__index = UI
 
@@ -81,6 +82,7 @@ function UI:CreateWindow(title)
     CloseBtn.TextColor3 = Color3.new(1,1,1)
     corner(CloseBtn,6)
 
+    --================ BODY =================
     local Body = Instance.new("Frame", Main)
     Body.Position = UDim2.new(0,0,0,40)
     Body.Size = UDim2.new(1,0,1,-40)
@@ -100,7 +102,40 @@ function UI:CreateWindow(title)
     Pages.Position = UDim2.new(0,125,0,5)
     Pages.BackgroundTransparency = 1
 
-    --================ WINDOW API =================
+    --================ DRAG =================
+    local dragging, dStart, sPos
+    Top.InputBegan:Connect(function(i)
+        if i.UserInputType == Enum.UserInputType.MouseButton1 or i.UserInputType == Enum.UserInputType.Touch then
+            dragging = true
+            dStart = i.Position
+            sPos = Main.Position
+        end
+    end)
+
+    UIS.InputChanged:Connect(function(i)
+        if dragging and (i.UserInputType == Enum.UserInputType.MouseMovement or i.UserInputType == Enum.UserInputType.Touch) then
+            local d = i.Position - dStart
+            Main.Position = UDim2.new(sPos.X.Scale,sPos.X.Offset+d.X,sPos.Y.Scale,sPos.Y.Offset+d.Y)
+        end
+    end)
+
+    UIS.InputEnded:Connect(function(i)
+        if i.UserInputType == Enum.UserInputType.MouseButton1 or i.UserInputType == Enum.UserInputType.Touch then
+            dragging = false
+        end
+    end)
+
+    local minimized = false
+    MinBtn.MouseButton1Click:Connect(function()
+        minimized = not minimized
+        Body.Visible = not minimized
+        Main.Size = minimized and UDim2.new(0,480,0,40) or UDim2.new(0,480,0,300)
+    end)
+
+    CloseBtn.MouseButton1Click:Connect(function()
+        gui:Destroy()
+    end)
+
     local Window = {Tabs = {}}
 
     function Window:CreateTab(name)
@@ -128,19 +163,6 @@ function UI:CreateWindow(title)
             Page.CanvasSize = UDim2.new(0,0,0,layout.AbsoluteContentSize.Y+10)
         end)
 
-        local Tab = {
-            Page = Page,
-            Button = btn,
-            _order = 0
-        }
-
-        local function nextOrder()
-            Tab._order += 1
-            return Tab._order
-        end
-
-        table.insert(Window.Tabs, Tab)
-
         btn.MouseButton1Click:Connect(function()
             for _,t in pairs(Window.Tabs) do
                 t.Page.Visible = false
@@ -150,30 +172,20 @@ function UI:CreateWindow(title)
             btn.BackgroundColor3 = Color3.fromRGB(70,70,70)
         end)
 
-        if #Window.Tabs == 1 then
+        if #Window.Tabs == 0 then
             Page.Visible = true
             btn.BackgroundColor3 = Color3.fromRGB(70,70,70)
         end
 
-        --=========== ELEMENTS ===========
+        local Tab = {Page=Page,Button=btn}
+        table.insert(Window.Tabs, Tab)
 
-        function Tab:AddSection(text)
-            local lbl = Instance.new("TextLabel", Page)
-            lbl.Size = UDim2.new(1,0,0,26)
-            lbl.BackgroundTransparency = 1
-            lbl.Text = text
-            lbl.Font = Enum.Font.GothamBold
-            lbl.TextSize = 13
-            lbl.TextXAlignment = Enum.TextXAlignment.Left
-            lbl.TextColor3 = Color3.fromRGB(180,180,180)
-            lbl.LayoutOrder = nextOrder()
-        end
+        --=========== ELEMENTS ===========
 
         function Tab:AddParagraph(title,text)
             local f = Instance.new("Frame",Page)
             f.Size = UDim2.new(1,0,0,60)
             f.BackgroundColor3 = Color3.fromRGB(40,40,40)
-            f.LayoutOrder = nextOrder()
             corner(f,8)
 
             local t = Instance.new("TextLabel",f)
@@ -200,11 +212,9 @@ function UI:CreateWindow(title)
 
         function Tab:AddToggle(text,default,cb)
             local val = default or false
-
             local holder = Instance.new("Frame",Page)
             holder.Size = UDim2.new(1,0,0,40)
             holder.BackgroundColor3 = Color3.fromRGB(45,45,45)
-            holder.LayoutOrder = nextOrder()
             corner(holder,8)
 
             local lbl = Instance.new("TextLabel",holder)
@@ -239,26 +249,40 @@ function UI:CreateWindow(title)
         end
 
         function Tab:AddButton(text, callback)
-            local btn = Instance.new("TextButton", Page)
+            local btn = Instance.new("TextButton",Page)
             btn.Size = UDim2.new(1, 0, 0, 38)
             btn.BackgroundColor3 = Color3.fromRGB(55,55,55)
             btn.Text = text
             btn.Font = Enum.Font.Gotham
             btn.TextSize = 14
             btn.TextColor3 = Color3.new(1,1,1)
-            btn.LayoutOrder = nextOrder()
             corner(btn, 8)
-
             btn.MouseButton1Click:Connect(function()
                 if callback then pcall(callback) end
             end)
+        end
+
+        -- ===== FIXED ADDSECTION =====
+        function Tab:AddSection(text)
+            local order = Page:GetAttribute("__section_order") or 0
+            order -= 1
+            Page:SetAttribute("__section_order", order)
+
+            local lbl = Instance.new("TextLabel",Page)
+            lbl.Size = UDim2.new(1,0,0,26)
+            lbl.BackgroundTransparency = 1
+            lbl.Text = text
+            lbl.Font = Enum.Font.GothamBold
+            lbl.TextSize = 13
+            lbl.TextXAlignment = Enum.TextXAlignment.Left
+            lbl.TextColor3 = Color3.fromRGB(180,180,180)
+            lbl.LayoutOrder = order
         end
 
         function Tab:AddInput(text,default,cb)
             local f = Instance.new("Frame",Page)
             f.Size = UDim2.new(1,0,0,40)
             f.BackgroundColor3 = Color3.fromRGB(45,45,45)
-            f.LayoutOrder = nextOrder()
             corner(f,8)
 
             local lbl = Instance.new("TextLabel",f)
@@ -284,49 +308,6 @@ function UI:CreateWindow(title)
             box.FocusLost:Connect(function()
                 if cb then pcall(cb,box.Text) end
             end)
-        end
-
-        function Tab:AddCollapse(text,build)
-            local open = false
-
-            local holder = Instance.new("Frame",Page)
-            holder.Size = UDim2.new(1,0,0,40)
-            holder.BackgroundColor3 = Color3.fromRGB(45,45,45)
-            holder.LayoutOrder = nextOrder()
-            holder.ClipsDescendants = true
-            corner(holder,8)
-
-            local btn = Instance.new("TextButton",holder)
-            btn.Size = UDim2.new(1,0,0,40)
-            btn.Text = text.." >"
-            btn.Font = Enum.Font.GothamBold
-            btn.TextSize = 14
-            btn.BackgroundTransparency = 1
-            btn.TextColor3 = Color3.new(1,1,1)
-
-            local inner = Instance.new("Frame",holder)
-            inner.Position = UDim2.new(0,0,0,40)
-            inner.BackgroundTransparency = 1
-            inner.Size = UDim2.new(1,0,0,0)
-
-            local lay = Instance.new("UIListLayout",inner)
-            lay.Padding = UDim.new(0,6)
-            padding(inner,6)
-
-            btn.MouseButton1Click:Connect(function()
-                open = not open
-                btn.Text = text .. (open and " v" or " >")
-                holder.Size = open and UDim2.new(1,0,0,40+lay.AbsoluteContentSize.Y+8) or UDim2.new(1,0,0,40)
-                inner.Size = open and UDim2.new(1,0,0,lay.AbsoluteContentSize.Y) or UDim2.new(1,0,0,0)
-            end)
-
-            if build then
-                local proxy = {}
-                function proxy:AddToggle(...) Tab.AddToggle({Page=inner,_order=0}, ...) end
-                function proxy:AddInput(...) Tab.AddInput({Page=inner,_order=0}, ...) end
-                function proxy:AddButton(...) Tab.AddButton({Page=inner,_order=0}, ...) end
-                build(proxy)
-            end
         end
 
         return Tab

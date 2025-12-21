@@ -4,7 +4,7 @@
 local Players = game:GetService("Players")
 local UIS = game:GetService("UserInputService")
 local LP = Players.LocalPlayer
---v0.3
+--v0.4
 local UI = {}
 UI.__index = UI
 
@@ -40,7 +40,9 @@ function UI:CreateWindow(title)
     ScreenGui.Parent = LP.PlayerGui
 
     local Main = Instance.new("Frame")
-    Main.Size = UDim2.fromScale(0.9,0.6)
+    Main.Size = UDim2.new(0,480,0,300)
+    Main.Position = UDim2.fromScale(0.5,0.5)
+    Main.AnchorPoint = Vector2.new(0.5,0.5)
     Main.Position = UDim2.fromScale(0.05,0.2)
     Main.BackgroundColor3 = Color3.fromRGB(25,25,25)
     Main.BorderSizePixel = 0

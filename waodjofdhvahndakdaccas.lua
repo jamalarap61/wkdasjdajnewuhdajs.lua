@@ -4,7 +4,7 @@
 local Players = game:GetService("Players")
 local UIS = game:GetService("UserInputService")
 local LP = Players.LocalPlayer
---v0.7
+--v0.8
 local UI = {}
 UI.__index = UI
 
@@ -272,6 +272,17 @@ function UI:CreateWindow(title)
     end)
 end
 
+function Tab:AddSection(text)
+    local lbl = Instance.new("TextLabel")
+    lbl.Parent = Page
+    lbl.Size = UDim2.new(1, 0, 0, 26)
+    lbl.BackgroundTransparency = 1
+    lbl.Text = text
+    lbl.Font = Enum.Font.GothamBold
+    lbl.TextSize = 13
+    lbl.TextXAlignment = Enum.TextXAlignment.Left
+    lbl.TextColor3 = Color3.fromRGB(180,180,180)
+end
 
         function Tab:AddInput(text,default,cb)
             local f = Instance.new("Frame",Page)

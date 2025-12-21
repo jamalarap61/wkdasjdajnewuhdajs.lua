@@ -4,7 +4,7 @@
 local Players = game:GetService("Players")
 local UIS = game:GetService("UserInputService")
 local LP = Players.LocalPlayer
---v0.6
+--v0.7
 local UI = {}
 UI.__index = UI
 
@@ -253,6 +253,25 @@ function UI:CreateWindow(title)
                 if cb then pcall(cb,val) end
             end)
         end
+        function Tab:AddButton(text, callback)
+    local btn = Instance.new("TextButton")
+    btn.Parent = Page
+    btn.Size = UDim2.new(1, 0, 0, 38)
+    btn.BackgroundColor3 = Color3.fromRGB(55,55,55)
+    btn.Text = text
+    btn.Font = Enum.Font.Gotham
+    btn.TextSize = 14
+    btn.TextColor3 = Color3.new(1,1,1)
+    btn.AutoButtonColor = false
+    corner(btn, 8)
+
+    btn.MouseButton1Click:Connect(function()
+        if callback then
+            pcall(callback)
+        end
+    end)
+end
+
 
         function Tab:AddInput(text,default,cb)
             local f = Instance.new("Frame",Page)

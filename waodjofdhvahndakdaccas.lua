@@ -4,7 +4,8 @@
 local Players = game:GetService("Players")
 local UIS = game:GetService("UserInputService")
 local LP = Players.LocalPlayer
---v1.1
+--v1.2
+
 local UI = {}
 UI.__index = UI
 
@@ -262,22 +263,28 @@ function UI:CreateWindow(title)
             end)
         end
 
-        -- ===== FIXED ADDSECTION =====
         function Tab:AddSection(text)
-            local order = Page:GetAttribute("__section_order") or 0
-            order -= 1
-            Page:SetAttribute("__section_order", order)
+    local lbl = Instance.new("TextLabel")
+    lbl.Size = UDim2.new(1,0,0,26)
+    lbl.BackgroundTransparency = 1
+    lbl.Text = text
+    lbl.Font = Enum.Font.GothamBold
+    lbl.TextSize = 13
+    lbl.TextXAlignment = Enum.TextXAlignment.Left
+    lbl.TextColor3 = Color3.fromRGB(180,180,180)
 
-            local lbl = Instance.new("TextLabel",Page)
-            lbl.Size = UDim2.new(1,0,0,26)
-            lbl.BackgroundTransparency = 1
-            lbl.Text = text
-            lbl.Font = Enum.Font.GothamBold
-            lbl.TextSize = 13
-            lbl.TextXAlignment = Enum.TextXAlignment.Left
-            lbl.TextColor3 = Color3.fromRGB(180,180,180)
-            lbl.LayoutOrder = order
-        end
+    -- Parent ke Page
+    lbl.Parent = Page
+
+    -- SET POSITION DI DEPAN SEMUA ELEMEN LAIN
+    local layout = Page:FindFirstChildOfClass("UIListLayout")
+    if layout then
+        lbl.LayoutOrder = (layout:GetChildren()[1] and layout:GetChildren()[1].LayoutOrder or 0) - 1
+    else
+        lbl.LayoutOrder = 0
+    end
+end
+
 
         function Tab:AddInput(text,default,cb)
             local f = Instance.new("Frame",Page)

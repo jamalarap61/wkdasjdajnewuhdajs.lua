@@ -4,7 +4,7 @@
 local Players = game:GetService("Players")
 local UIS = game:GetService("UserInputService")
 local LP = Players.LocalPlayer
---v1.2
+--v1.3
 
 local UI = {}
 UI.__index = UI
@@ -262,8 +262,7 @@ function UI:CreateWindow(title)
                 if callback then pcall(callback) end
             end)
         end
-
-        function Tab:AddSection(text)
+function Tab:AddSection(text)
     local lbl = Instance.new("TextLabel")
     lbl.Size = UDim2.new(1,0,0,26)
     lbl.BackgroundTransparency = 1
@@ -273,17 +272,18 @@ function UI:CreateWindow(title)
     lbl.TextXAlignment = Enum.TextXAlignment.Left
     lbl.TextColor3 = Color3.fromRGB(180,180,180)
 
-    -- Parent ke Page
+    -- INSERT DI DEPAN SEMUA CHILD PAGE
     lbl.Parent = Page
+    lbl.LayoutOrder = 0
 
-    -- SET POSITION DI DEPAN SEMUA ELEMEN LAIN
-    local layout = Page:FindFirstChildOfClass("UIListLayout")
-    if layout then
-        lbl.LayoutOrder = (layout:GetChildren()[1] and layout:GetChildren()[1].LayoutOrder or 0) - 1
-    else
-        lbl.LayoutOrder = 0
+    -- geser elemen lain ke bawah
+    for _,c in pairs(Page:GetChildren()) do
+        if c ~= lbl and c:IsA("GuiObject") then
+            c.LayoutOrder = (c.LayoutOrder or 0) + 1
+        end
     end
 end
+
 
 
         function Tab:AddInput(text,default,cb)

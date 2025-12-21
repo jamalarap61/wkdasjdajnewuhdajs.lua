@@ -5,7 +5,7 @@ local LP = Players.LocalPlayer
 
 local UI = {}
 UI.__index = UI
-
+--v0.1
 --========================
 -- UTIL
 --========================
@@ -62,7 +62,7 @@ function UI:CreateWindow(title)
     Title.Text = title or "Window"
     Title.Font = Enum.Font.GothamBold
     Title.TextSize = 16
-    Title.TextXAlignment = Left
+    Title.TextXAlignment = Enum.TextXAlignment.Left
     Title.TextColor3 = Color3.new(1,1,1)
     Title.Parent = Top
 

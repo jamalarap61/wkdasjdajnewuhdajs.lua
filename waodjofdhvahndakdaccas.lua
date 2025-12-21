@@ -4,7 +4,7 @@
 local Players = game:GetService("Players")
 local UIS = game:GetService("UserInputService")
 local LP = Players.LocalPlayer
---v0.8
+--v0.9
 local UI = {}
 UI.__index = UI
 
@@ -282,7 +282,9 @@ function Tab:AddSection(text)
     lbl.TextSize = 13
     lbl.TextXAlignment = Enum.TextXAlignment.Left
     lbl.TextColor3 = Color3.fromRGB(180,180,180)
+    lbl.LayoutOrder = nextOrder(Tab) 
 end
+
 
         function Tab:AddInput(text,default,cb)
             local f = Instance.new("Frame",Page)

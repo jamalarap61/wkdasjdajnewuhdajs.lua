@@ -1,3 +1,5 @@
+--v2
+
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 local GuiService = game:GetService("GuiService")
@@ -135,7 +137,7 @@ local function Notify(text, dura)
         })
     end)
 end
-121864768012064
+
 if game.PlaceId == 126884695634066 then
 -- ZZZZZ2 = Grow A Garden
 loadstring(game:HttpGet("https://raw.githubusercontent.com/jamalarap61/Mslspakwnendlsowjnssoaknana/refs/heads/main/ZZZZZ2.lua"))()

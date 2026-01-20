@@ -160,6 +160,7 @@ Notify("[Steal a Brainrot] Loaded Successfully")
 elseif game.PlaceId == 131623223084840 then
 -- ZZZZZ5 Escape Tsunami for Brainrot
 loadstring(game:HttpGet("https://raw.githubusercontent.com/jamalarap61/Mslspakwnendlsowjnssoaknana/refs/heads/main/ZZZZZ5.lua"))()
+Notify("[Escape Tsunami for Brainrot] Loaded Successfully")
 else
 Notify("[Warning] Game Not Supported!", 30)
 return

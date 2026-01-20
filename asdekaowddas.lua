@@ -157,6 +157,9 @@ elseif game.PlaceId == 96342491571673 or game.PlaceId == 109983668079237 then
 -- ZZZZZ4 = Steal a Brainrot
 loadstring(game:HttpGet("https://raw.githubusercontent.com/jamalarap61/Mslspakwnendlsowjnssoaknana/refs/heads/main/ZZZZZ4.lua"))()
 Notify("[Steal a Brainrot] Loaded Successfully")
+elseif game.PlaceId == 131623223084840 then
+-- ZZZZZ5 Escape Tsunami for Brainrot
+loadstring(game:HttpGet("https://raw.githubusercontent.com/jamalarap61/Mslspakwnendlsowjnssoaknana/refs/heads/main/ZZZZZ5.lua"))()
 else
 Notify("[Warning] Game Not Supported!", 30)
 return
